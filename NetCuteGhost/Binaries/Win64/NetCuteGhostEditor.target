@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-NetCuteGhost-7372.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-NetCuteGhost-8070.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-NetCuteGhost-7372.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-NetCuteGhost-8070.pdb",
 			"Type": "SymbolFile"
 		},
 		{

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NetCuteGhost.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{838AEE43-7684-42D0-93D6-5F9874A17C0E}</UniqueIdentifier>
+      <UniqueIdentifier>{85B64E97-D52C-4A34-806C-A7EF7ADC1671}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NetCuteGhost.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BC20944D-C786-42A0-9165-C8E551C31BF8}</UniqueIdentifier>
+      <UniqueIdentifier>{3EC0DE06-32CA-4485-80B0-F32A6E766467}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NetCuteGhost">
-      <UniqueIdentifier>{EC5AE45E-1994-40FC-AE60-DCAE449D1012}</UniqueIdentifier>
+      <UniqueIdentifier>{CAF048D1-7EFA-4409-932A-148027E992AB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NetCuteGhost\NetCuteGhost.Build.cs">
       <Filter>Source\NetCuteGhost</Filter>
@@ -44,38 +44,32 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source\NetCuteGhost\Public">
-      <UniqueIdentifier>{86d99e62-eaaf-4426-9a20-e7ee0cc14b84}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\NetCuteGhost\Public\GhostElements">
-      <UniqueIdentifier>{d5d8cf5c-482b-44d1-b60f-a619081a135a}</UniqueIdentifier>
+      <UniqueIdentifier>{6ee02ce0-1689-49eb-b2b8-02f88daaf741}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\NetCuteGhost\Private">
-      <UniqueIdentifier>{798ea1ba-deb9-40b5-abc1-bc4ec171b1d7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\NetCuteGhost\Private\GhostElements">
-      <UniqueIdentifier>{b7863f68-6412-43a4-9056-e029c9e140ed}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\NetCuteGhost\Public\GhostNetwork">
-      <UniqueIdentifier>{687ce0fe-edfb-4d49-8054-8acd7600b51f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\NetCuteGhost\Private\GhostNetwork">
-      <UniqueIdentifier>{6b2ccdbc-05e9-4309-8ed3-36b262104068}</UniqueIdentifier>
+      <UniqueIdentifier>{d4a8124e-df55-4025-8395-122f15dad80e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\NetCuteGhost\Public\GhostElements\MNSGhostPawnBase.h">
-      <Filter>Source\NetCuteGhost\Public\GhostElements</Filter>
+    <ClInclude Include="..\..\Source\NetCuteGhost\Public\GhostTCPServer.h">
+      <Filter>Source\NetCuteGhost\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\NetCuteGhost\Public\GhostNetwork\NetCuteGhostServer.h">
-      <Filter>Source\NetCuteGhost\Public\GhostNetwork</Filter>
+    <ClInclude Include="..\..\Source\NetCuteGhost\Public\CuteGhostPawnBase.h">
+      <Filter>Source\NetCuteGhost\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NetCuteGhost\Public\GhostGameInstance.h">
+      <Filter>Source\NetCuteGhost\Public</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\NetCuteGhost\Private\GhostElements\MNSGhostPawnBase.cpp">
-      <Filter>Source\NetCuteGhost\Private\GhostElements</Filter>
+    <ClCompile Include="..\..\Source\NetCuteGhost\Private\GhostTCPServer.cpp">
+      <Filter>Source\NetCuteGhost\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\NetCuteGhost\Private\GhostNetwork\NetCuteGhostServer.cpp">
-      <Filter>Source\NetCuteGhost\Private\GhostNetwork</Filter>
+    <ClCompile Include="..\..\Source\NetCuteGhost\Private\CuteGhostPawnBase.cpp">
+      <Filter>Source\NetCuteGhost\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetCuteGhost\Private\GhostGameInstance.cpp">
+      <Filter>Source\NetCuteGhost\Private</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

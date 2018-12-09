@@ -1,17 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading NetCuteGhostEditor (game project files are newer)
   Compiling game modules for hot reload
-  Using Visual Studio 2017 14.13.26128 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for NetCuteGhostEditor
     Running UnrealHeaderTool "C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\NetCuteGhost.uproject" "C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\NetCuteGhostEditor\Development\NetCuteGhostEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for NetCuteGhostEditor in 12.9748752 seconds
-  Building 5 actions with 8 processes...
-    [1/5] NetCuteGhost.init.gen.cpp
-    [2/5] MNSGhostPawnBase.cpp
-    [3/5] MNSGhostPawnBase.gen.cpp
-    [4/5] UE4Editor-NetCuteGhost-7372.lib
-       C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-7372.lib ????귯?? ?? C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-7372.exp ??u?? ??????? ??????.
-    [5/5] UE4Editor-NetCuteGhost-7372.dll
-       C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-7372.suppressed.lib ????귯?? ?? C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-7372.suppressed.exp ??u?? ??????? ??????.
+  Reflection code generated for NetCuteGhostEditor in 60.1516709 seconds
+  Building 4 actions with 8 processes...
+    [1/4] GhostTCPServer.gen.cpp
+    [2/4] GhostTCPServer.cpp
+    [3/4] UE4Editor-NetCuteGhost-6564.lib
+       C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-6564.lib ????귯?? ?? C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-6564.exp ??u?? ??????? ??????.
+    [4/4] UE4Editor-NetCuteGhost-6564.dll
+       C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-6564.suppressed.lib ????귯?? ?? C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-6564.suppressed.exp ??u?? ??????? ??????.
   Deploying NetCuteGhostEditor Win64 Development...
-  Total build time: 63.63 seconds (Parallel executor: 9.55 seconds)
+  Total build time: 104.54 seconds (Parallel executor: 12.98 seconds)

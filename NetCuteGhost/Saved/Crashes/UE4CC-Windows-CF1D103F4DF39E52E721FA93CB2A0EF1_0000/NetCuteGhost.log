@@ -1,0 +1,763 @@
+﻿Log file open, 12/09/18 17:27:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: NetCuteGhost
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.698406
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.401s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files (x86)/~Game/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.09-08.27.37:330][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.09-08.27.37:332][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.09-08.27.37:378][  0]LogHAL: Display: Platform has ~ 8 GB [8393322496 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.09-08.27.37:382][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.09-08.27.37:382][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.09-08.27.37:402][  0]LogInit: Computer: DESKTOP-33J3PSK
+[2018.12.09-08.27.37:402][  0]LogInit: User: Utsuho
+[2018.12.09-08.27.37:402][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.09-08.27.37:402][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2018.12.09-08.27.37:402][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2018.12.09-08.27.37:402][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.09-08.27.37:402][  0]LogMemory: Process Physical Memory: 100.68 MB used, 100.68 MB peak
+[2018.12.09-08.27.37:402][  0]LogMemory: Process Virtual Memory: 89.29 MB used, 89.29 MB peak
+[2018.12.09-08.27.37:402][  0]LogMemory: Physical Memory: 6214.07 MB used,  1790.43 MB free, 8004.50 MB total
+[2018.12.09-08.27.37:402][  0]LogMemory: Virtual Memory: 4643.48 MB used,  1790.43 MB free, 134217728.00 MB total
+[2018.12.09-08.27.38:053][  0]LogInit: Using OS detected language (ko-KR).
+[2018.12.09-08.27.38:053][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.12.09-08.27.38:058][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.12.09-08.27.39:008][  0]LogStreaming: Display: Took  0.954s to InitEngineTextLocalization.
+[2018.12.09-08.27.39:008][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.09-08.27.39:304][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.09-08.27.39:304][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.09-08.27.47:018][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.09-08.27.47:019][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.09-08.27.47:047][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.12.09-08.27.47:047][  0]LogD3D11RHI:       128/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.12.09-08.27.47:127][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.12.09-08.27.47:127][  0]LogD3D11RHI:       1993/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.09-08.27.47:137][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.09-08.27.47:137][  0]LogD3D11RHI:       0/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.09-08.27.47:137][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2018.12.09-08.27.47:156][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.09-08.27.47:156][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.12.09-08.27.47:157][  0]LogWindows: EnumDisplayDevices:
+[2018.12.09-08.27.47:157][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.12.09-08.27.47:158][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.09-08.27.47:161][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.09-08.27.47:164][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960M' (P:0 D:1)
+[2018.12.09-08.27.47:165][  0]LogWindows:    4. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.12.09-08.27.47:167][  0]LogWindows:    5. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.12.09-08.27.47:168][  0]LogWindows:    6. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.12.09-08.27.47:170][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
+[2018.12.09-08.27.47:170][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.12.09-08.27.47:170][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.12.09-08.27.47:171][  0]LogD3D11RHI:   Driver Version: 353.54 (internal:10.18.13.5354, unified:353.54)
+[2018.12.09-08.27.47:171][  0]LogD3D11RHI:      Driver Date: 7-13-2015
+[2018.12.09-08.27.47:171][  0]LogRHI: Texture pool is 1395 MB (70% of 1993 MB)
+[2018.12.09-08.27.47:218][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2018.12.09-08.27.47:218][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.09-08.27.47:254][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.12.09-08.27.47:287][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Intermediate/Shaders/WorkingDirectory/14128/).
+[2018.12.09-08.27.47:287][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Utsuho/AppData/Local/Temp/UnrealShaderWorkingDir/82A4D6924E1ABA3D91E9E0A001F63BF4/'.
+[2018.12.09-08.27.48:359][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.09-08.27.48:391][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.09-08.27.48:419][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.09-08.27.48:447][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.09-08.27.48:494][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.09-08.27.48:523][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.09-08.27.48:564][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.09-08.27.48:595][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.09-08.27.48:610][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-08.27.48:816][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.09-08.27.48:960][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.09-08.27.48:960][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.09-08.27.49:027][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.09-08.27.49:027][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.09-08.27.49:060][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.09-08.27.49:091][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.09-08.27.49:121][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.09-08.27.49:177][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.09-08.27.49:203][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.09-08.27.49:203][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.09-08.27.49:522][  0]LogXGEController: Cleaning working directory: C:/Users/Utsuho/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.09-08.27.49:523][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.09-08.27.49:523][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.09-08.27.49:523][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.09-08.27.54:816][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.09-08.27.55:172][  0]LogDerivedDataCache: Loaded boot cache 0.36s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.09-08.27.55:173][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.09-08.27.55:173][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.09-08.27.55:173][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.09-08.27.55:173][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.09-08.27.55:173][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.09-08.27.55:222][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.09-08.27.55:241][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Utsuho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.09-08.27.55:241][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.09-08.27.55:241][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.09-08.27.55:290][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.09-08.27.55:300][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.09-08.27.55:330][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.09-08.27.55:992][  0]LogAssetRegistry: FAssetRegistry took 0.0414 seconds to start up
+[2018.12.09-08.27.57:109][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.09-08.27.57:953][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.09-08.27.57:986][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.09-08.27.57:986][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.09-08.27.57:987][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.09-08.27.57:987][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.09-08.27.58:148][  0]LogNetVersion: NetCuteGhost 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3007799762)
+[2018.12.09-08.28.01:403][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.302901 seconds
+[2018.12.09-08.28.01:422][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.09-08.28.01:422][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.12.09-08.28.01:422][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.09-08.28.10:469][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.09-08.28.10:537][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.09-08.28.11:267][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.09-08.28.11:267][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.09-08.28.11:283][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.09-08.28.11:295][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.09-08.28.12:016][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.09-08.28.12:612][  0]LogOcInput: OculusInput pre-init called
+[2018.12.09-08.28.12:846][  0]LogEngine: Initializing Engine...
+[2018.12.09-08.28.12:852][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.09-08.28.12:861][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.09-08.28.12:861][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.09-08.28.12:862][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.12.09-08.28.12:862][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.09-08.28.13:558][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.09-08.28.13:663][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.09-08.28.13:882][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.09-08.28.14:061][  0]LogInit: FAudioDevice initialized.
+[2018.12.09-08.28.14:063][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.09-08.28.14:218][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.09-08.28.14:234][  0]LogInit: Texture streaming: Enabled
+[2018.12.09-08.28.14:345][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.09-08.28.14:428][  0]LogInit: Transaction tracking system initialized
+[2018.12.09-08.28.14:555][  0]BlueprintLog: New page: 에디터 로드
+[2018.12.09-08.28.14:998][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.12.09-08.28.16:159][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.09-08.28.16:160][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.09-08.28.16:162][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.09-08.28.16:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.09-08.28.16:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.09-08.28.16:164][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.09-08.28.16:164][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.09-08.28.16:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/' took 0.03s
+[2018.12.09-08.28.16:929][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.09-08.28.16:960][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files (x86)/~Game/Epic Games/UE_4.20/FeaturePacks/StarterContent.upack)
+[2018.12.09-08.28.16:993][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.12.09-08.28.17:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.12.09-08.28.17:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.12.09-08.28.17:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.12.09-08.28.17:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.12.09-08.28.17:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.12.09-08.28.17:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.12.09-08.28.17:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.12.09-08.28.17:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.12.09-08.28.17:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.12.09-08.28.17:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.12.09-08.28.17:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.12.09-08.28.17:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.12.09-08.28.17:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.12.09-08.28.17:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.12.09-08.28.17:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.12.09-08.28.17:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.12.09-08.28.17:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.12.09-08.28.17:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Fire01.uasset"
+[2018.12.09-08.28.17:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.12.09-08.28.17:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.12.09-08.28.17:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.12.09-08.28.17:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Light01.uasset"
+[2018.12.09-08.28.17:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.12.09-08.28.17:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Light02.uasset"
+[2018.12.09-08.28.17:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.12.09-08.28.17:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.12.09-08.28.17:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.12.09-08.28.17:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.12.09-08.28.17:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.12.09-08.28.17:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.12.09-08.28.17:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.12.09-08.28.17:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.12.09-08.28.17:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.12.09-08.28.18:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Steam01.uasset"
+[2018.12.09-08.28.18:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.12.09-08.28.18:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.12.09-08.28.18:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.12.09-08.28.18:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.12.09-08.28.18:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.12.09-08.28.18:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.12.09-08.28.18:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.12.09-08.28.18:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.12.09-08.28.18:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.12.09-08.28.18:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.12.09-08.28.18:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.12.09-08.28.18:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.12.09-08.28.18:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.12.09-08.28.18:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.12.09-08.28.18:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.12.09-08.28.18:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.12.09-08.28.18:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.12.09-08.28.18:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.12.09-08.28.18:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.12.09-08.28.18:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.12.09-08.28.19:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.12.09-08.28.19:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.12.09-08.28.19:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Maps/StarterMap.umap"
+[2018.12.09-08.28.19:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.12.09-08.28.19:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.12.09-08.28.19:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.12.09-08.28.19:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.12.09-08.28.19:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.12.09-08.28.19:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.12.09-08.28.20:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.12.09-08.28.20:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.12.09-08.28.20:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.12.09-08.28.20:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.12.09-08.28.20:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.12.09-08.28.20:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.12.09-08.28.20:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.12.09-08.28.20:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.12.09-08.28.20:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.12.09-08.28.20:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.12.09-08.28.20:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.12.09-08.28.20:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.12.09-08.28.20:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.12.09-08.28.20:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.12.09-08.28.20:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.12.09-08.28.20:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.12.09-08.28.20:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.12.09-08.28.20:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.12.09-08.28.20:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.12.09-08.28.20:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.12.09-08.28.20:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.12.09-08.28.20:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.12.09-08.28.20:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.12.09-08.28.20:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.12.09-08.28.20:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.12.09-08.28.20:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.12.09-08.28.21:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.12.09-08.28.21:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.12.09-08.28.21:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.12.09-08.28.21:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.12.09-08.28.21:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.12.09-08.28.21:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.12.09-08.28.21:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.12.09-08.28.21:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.12.09-08.28.21:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.12.09-08.28.21:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.12.09-08.28.21:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.12.09-08.28.21:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.12.09-08.28.21:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.12.09-08.28.21:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.12.09-08.28.21:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.12.09-08.28.21:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.12.09-08.28.21:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.12.09-08.28.21:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.12.09-08.28.21:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.12.09-08.28.21:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.12.09-08.28.21:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.12.09-08.28.21:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.12.09-08.28.21:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.12.09-08.28.21:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.12.09-08.28.21:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.12.09-08.28.22:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.12.09-08.28.22:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.12.09-08.28.22:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.12.09-08.28.22:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.12.09-08.28.22:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.12.09-08.28.22:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.12.09-08.28.22:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.12.09-08.28.22:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.12.09-08.28.22:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_Door.uasset"
+[2018.12.09-08.28.22:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.12.09-08.28.22:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.12.09-08.28.22:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.12.09-08.28.22:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.12.09-08.28.22:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.12.09-08.28.22:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.12.09-08.28.22:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.12.09-08.28.22:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.12.09-08.28.22:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.12.09-08.28.22:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.12.09-08.28.22:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.12.09-08.28.22:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.12.09-08.28.22:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.12.09-08.28.22:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.12.09-08.28.22:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.12.09-08.28.22:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.12.09-08.28.22:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.12.09-08.28.23:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.12.09-08.28.23:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.12.09-08.28.23:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.12.09-08.28.23:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.12.09-08.28.23:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.12.09-08.28.23:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.12.09-08.28.23:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.12.09-08.28.23:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.12.09-08.28.23:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.12.09-08.28.23:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.12.09-08.28.23:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.12.09-08.28.23:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.12.09-08.28.23:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.12.09-08.28.23:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.12.09-08.28.23:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.12.09-08.28.23:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.12.09-08.28.23:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.12.09-08.28.23:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.12.09-08.28.23:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.12.09-08.28.23:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.12.09-08.28.23:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.12.09-08.28.23:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.12.09-08.28.23:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.12.09-08.28.23:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.12.09-08.28.24:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.12.09-08.28.24:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.12.09-08.28.24:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.12.09-08.28.24:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.12.09-08.28.24:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.12.09-08.28.24:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.12.09-08.28.24:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.12.09-08.28.24:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.12.09-08.28.24:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.12.09-08.28.24:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.12.09-08.28.24:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.12.09-08.28.24:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.12.09-08.28.24:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.12.09-08.28.24:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.12.09-08.28.24:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.12.09-08.28.24:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.12.09-08.28.25:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.12.09-08.28.25:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.12.09-08.28.25:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.12.09-08.28.25:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.12.09-08.28.25:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.12.09-08.28.25:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.12.09-08.28.25:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.12.09-08.28.25:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.12.09-08.28.25:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.12.09-08.28.25:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.12.09-08.28.25:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.12.09-08.28.25:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.12.09-08.28.25:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.12.09-08.28.25:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.12.09-08.28.25:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.12.09-08.28.26:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.12.09-08.28.26:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.12.09-08.28.26:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.12.09-08.28.26:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.12.09-08.28.26:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.12.09-08.28.26:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.12.09-08.28.26:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.12.09-08.28.26:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.12.09-08.28.26:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.12.09-08.28.26:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.12.09-08.28.26:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.12.09-08.28.26:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.12.09-08.28.26:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.12.09-08.28.26:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.12.09-08.28.26:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.12.09-08.28.26:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.12.09-08.28.26:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.12.09-08.28.27:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.12.09-08.28.27:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.12.09-08.28.27:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.12.09-08.28.27:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.12.09-08.28.27:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.12.09-08.28.27:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.12.09-08.28.27:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.12.09-08.28.27:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.12.09-08.28.27:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.12.09-08.28.27:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.12.09-08.28.27:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.12.09-08.28.27:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.12.09-08.28.27:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.12.09-08.28.27:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.12.09-08.28.27:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.12.09-08.28.27:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.12.09-08.28.27:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.12.09-08.28.28:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.12.09-08.28.28:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.12.09-08.28.28:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.12.09-08.28.28:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.12.09-08.28.28:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.12.09-08.28.28:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.12.09-08.28.28:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.12.09-08.28.28:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.12.09-08.28.28:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.12.09-08.28.28:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.12.09-08.28.28:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.12.09-08.28.28:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.12.09-08.28.28:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.12.09-08.28.28:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.12.09-08.28.28:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.12.09-08.28.28:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.12.09-08.28.28:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.12.09-08.28.29:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.12.09-08.28.29:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.12.09-08.28.29:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.12.09-08.28.29:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.12.09-08.28.29:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.12.09-08.28.29:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.12.09-08.28.29:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.12.09-08.28.29:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.12.09-08.28.29:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.12.09-08.28.29:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.12.09-08.28.29:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.12.09-08.28.29:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.12.09-08.28.29:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.12.09-08.28.29:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.12.09-08.28.29:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.12.09-08.28.29:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.12.09-08.28.29:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.12.09-08.28.29:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.12.09-08.28.29:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.12.09-08.28.29:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.12.09-08.28.29:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.12.09-08.28.30:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.12.09-08.28.30:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.12.09-08.28.30:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.12.09-08.28.30:330][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.12.09-08.28.30:801][  0]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Saved/Floor_400x400A764BAC24F9AC621F30B5B98C995DB46.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.12.09-08.28.30:830][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2018.12.09-08.28.30:846][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/Map/Map_GhostPlayGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.09-08.28.30:847][  0]LightingResults: New page: 라이팅 빌드
+[2018.12.09-08.28.30:874][  0]MapCheck: New page: 맵 체크
+[2018.12.09-08.28.30:874][  0]LightingResults: New page: 라이팅 빌드
+[2018.12.09-08.28.31:815][  0]LogAIModule: Creating AISystem for world Map_GhostPlayground
+[2018.12.09-08.28.31:865][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.09-08.28.31:937][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.09-08.28.32:268][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 330.665ms.
+[2018.12.09-08.28.32:271][  0]LogFileHelpers: Loading map 'Map_GhostPlayGround' took 1.426
+[2018.12.09-08.28.32:680][  0]LogCollectionManager: Loaded 0 collections in 0.003351 seconds
+[2018.12.09-08.28.32:748][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Saved/Collections/' took 0.01s
+[2018.12.09-08.28.32:748][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/Developers/Utsuho/Collections/' took 0.01s
+[2018.12.09-08.28.32:748][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/Collections/' took 0.00s
+[2018.12.09-08.28.32:748][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.09-08.28.32:777][  0]LogContentBrowser: Native class hierarchy populated in 0.0268 seconds. Added 2573 classes and 605 folders.
+[2018.12.09-08.28.32:800][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.12.09-08.28.33:892][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2018.12.09-08.28.33:964][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-08.28.33:983][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-08.28.34:009][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-08.28.34:029][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-08.28.34:054][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0028 seconds. Added 1 classes and 2 folders.
+[2018.12.09-08.28.34:097][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0007 seconds. Added 2 classes and 3 folders.
+[2018.12.09-08.28.34:520][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-08.28.34:542][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-08.28.34:558][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-08.28.34:568][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-08.28.34:599][  0]LogSlate: Took 0.008928 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.09-08.28.34:618][  0]LogSlate: Took 0.014392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.12.09-08.28.34:631][  0]LogSlate: Took 0.008740 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.09-08.28.34:646][  0]LogSlate: Took 0.014872 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.12.09-08.28.34:661][  0]LogSlate: Took 0.013456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.09-08.28.34:708][  0]LogSlate: Took 0.020183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.09-08.28.34:895][  0]LogRenderer: Reallocating scene render targets to support 1028x904 Format 10 NumSamples 1 (Frame:1).
+[2018.12.09-08.28.35:299][  0]LogRenderer: Reallocating scene render targets to support 1632x1016 Format 10 NumSamples 1 (Frame:2).
+[2018.12.09-08.28.35:513][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.12.09-08.28.35:513][  0]LogLoad: (Engine Initialization) Total time: 68.84 seconds
+[2018.12.09-08.28.35:513][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.09-08.28.35:592][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.09-08.28.35:816][  2]LogAssetRegistry: Asset discovery search completed in 39.8540 seconds
+[2018.12.09-08.28.35:831][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.12.09-08.28.35:831][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000340 seconds (updated 0 objects)
+[2018.12.09-08.28.39:711][  9]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.09-08.28.47:296][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.09-08.28.52:894][492]LogSlate: Took 0.000358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.09-08.28.53:008][492]LogSlate: Took 0.012424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.09-08.30.06:314][837]Running C:/Program Files (x86)/~Game/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/NetCuteGhost.uproject" -invalidatemakefilesonly
+[2018.12.09-08.30.19:245][837]Invalidating makefiles only in this run.
+[2018.12.09-08.30.19:903][837]Candidate modules for hot reload:
+[2018.12.09-08.30.19:904][837]  NetCuteGhost
+[2018.12.09-08.30.19:908][837]Launching UnrealBuildTool... [C:/Program Files (x86)/~Game/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NetCuteGhost,4870 Win64 Development -TargetType=Editor -Project="../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/NetCuteGhost.uproject" -canskiplink "C:/Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/NetCuteGhost.uproject" ]
+[2018.12.09-08.33.11:283][837]CompilerResultsLog: New page: 컴파일 - 2018. 12. 10. 오전 2:33:11
+[2018.12.09-08.33.11:284][837]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.09-08.33.11:284][837]CompilerResultsLog: Creating makefile for hot reloading NetCuteGhostEditor (no existing makefile)
+[2018.12.09-08.33.11:284][837]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.09-08.33.11:284][837]CompilerResultsLog: Using Visual Studio 2017 14.13.26128 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.09-08.33.11:284][837]CompilerResultsLog: Parsing headers for NetCuteGhostEditor
+[2018.12.09-08.33.11:284][837]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\NetCuteGhost.uproject" "C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\NetCuteGhostEditor\Development\NetCuteGhostEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.09-08.33.11:284][837]CompilerResultsLog: Reflection code generated for NetCuteGhostEditor in 23.1756998 seconds
+[2018.12.09-08.33.11:284][837]CompilerResultsLog: Building 5 actions with 8 processes...
+[2018.12.09-08.33.11:284][837]CompilerResultsLog:   [1/5] NetCuteGhost.init.gen.cpp
+[2018.12.09-08.33.11:284][837]CompilerResultsLog:   [2/5] GhostTCPServer.cpp
+[2018.12.09-08.33.11:284][837]CompilerResultsLog:   [3/5] GhostTCPServer.gen.cpp
+[2018.12.09-08.33.11:284][837]CompilerResultsLog:   [4/5] UE4Editor-NetCuteGhost-4870.lib
+[2018.12.09-08.33.11:284][837]CompilerResultsLog:      C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-4870.lib ???????? ?? C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-4870.exp ??u?? ??????? ??????.
+[2018.12.09-08.33.11:284][837]CompilerResultsLog:   [5/5] UE4Editor-NetCuteGhost-4870.dll
+[2018.12.09-08.33.11:284][837]CompilerResultsLog:      C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-4870.suppressed.lib ???????? ?? C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-4870.suppressed.exp ??u?? ??????? ??????.
+[2018.12.09-08.33.11:284][837]CompilerResultsLog: Total build time: 170.18 seconds (Parallel executor: 8.78 seconds)
+[2018.12.09-08.33.11:285][837]LogMainFrame: MainFrame: Module compiling took 171.406 seconds
+[2018.12.09-08.33.11:377][837]LogClass: Could not find existing class GhostTCPServer in package /Script/NetCuteGhost for HotReload, assuming new class
+[2018.12.09-08.33.11:382][837]LogContentBrowser: Native class hierarchy updated for 'NetCuteGhost' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2018.12.09-08.33.11:387][837]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.12.09-08.33.11:555][837]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2577 classes and 611 folders.
+[2018.12.09-08.33.11:560][837]Display: HotReload took 172.2s.
+[2018.12.09-08.33.11:562][837]Warning: HotReload operation took 172.2s.
+[2018.12.09-08.33.11:822][837]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Source/NetCuteGhost/Public/GhostTCPServer.h'
+[2018.12.09-08.33.14:118][837]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2018.12.09-08.33.14:158][837]LogHotReload: New module detected: UE4Editor-NetCuteGhost-4870.dll
+[2018.12.09-08.33.14:328][838]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.09-08.33.14:479][838]LogContentBrowser: Native class hierarchy updated for 'NetCuteGhost' in 0.0008 seconds. Added 2 classes and 3 folders.
+[2018.12.09-08.33.14:483][838]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.12.09-08.33.14:551][838]LogContentBrowser: Native class hierarchy populated in 0.0203 seconds. Added 2577 classes and 611 folders.
+[2018.12.09-08.33.14:566][838]Display: HotReload took  0.2s.
+[2018.12.09-09.53.56:002][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.09-12.32.42:321][709]LogHttp: Warning: 00000214277CB4C0: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.12.09-12.32.42:424][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 0 (Connection 104 seems to be dead!)
+[2018.12.09-12.32.42:425][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 1 (Closing connection 104)
+[2018.12.09-12.32.42:426][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.12.09-12.32.42:426][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 3 (  Trying 52.87.139.142...)
+[2018.12.09-12.32.42:426][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 4 (TCP_NODELAY set)
+[2018.12.09-12.32.42:426][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 5 (connect to 52.87.139.142 port 443 failed: Connection was aborted)
+[2018.12.09-12.32.42:426][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 6 (  Trying 52.87.18.159...)
+[2018.12.09-12.32.42:426][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 7 (TCP_NODELAY set)
+[2018.12.09-12.32.42:426][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 8 (connect to 52.87.18.159 port 443 failed: Network unreachable)
+[2018.12.09-12.32.42:426][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 9 (  Trying 52.6.198.225...)
+[2018.12.09-12.32.42:426][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 10 (TCP_NODELAY set)
+[2018.12.09-12.32.42:427][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 11 (connect to 52.6.198.225 port 443 failed: Network unreachable)
+[2018.12.09-12.32.42:427][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 12 (  Trying 54.81.81.192...)
+[2018.12.09-12.32.42:427][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 13 (TCP_NODELAY set)
+[2018.12.09-12.32.42:439][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 14 (connect to 54.81.81.192 port 443 failed: Network unreachable)
+[2018.12.09-12.32.42:439][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 15 (  Trying 54.83.171.2...)
+[2018.12.09-12.32.42:439][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 16 (TCP_NODELAY set)
+[2018.12.09-12.32.42:439][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 17 (connect to 54.83.171.2 port 443 failed: Network unreachable)
+[2018.12.09-12.32.42:439][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 18 (  Trying 54.164.240.160...)
+[2018.12.09-12.32.42:439][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 19 (TCP_NODELAY set)
+[2018.12.09-12.32.42:439][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 20 (connect to 54.164.240.160 port 443 failed: Network unreachable)
+[2018.12.09-12.32.42:440][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 21 (  Trying 54.236.214.14...)
+[2018.12.09-12.32.42:440][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 22 (TCP_NODELAY set)
+[2018.12.09-12.32.42:441][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 23 (connect to 54.236.214.14 port 443 failed: Network unreachable)
+[2018.12.09-12.32.42:441][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 24 (  Trying 54.236.245.167...)
+[2018.12.09-12.32.42:442][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 25 (TCP_NODELAY set)
+[2018.12.09-12.32.42:442][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 26 (connect to 54.236.245.167 port 443 failed: Network unreachable)
+[2018.12.09-12.32.42:442][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 27 (Failed to connect to datarouter.ol.epicgames.com port 443: Network unreachable)
+[2018.12.09-12.32.42:442][709]LogHttp: Warning: 00000214277CB4C0: libcurl info message cache 28 (Closing connection 105)
+[2018.12.09-12.53.41:968][464]LogHotReload: New module detected: UE4Editor-NetCuteGhost-6073.dll
+[2018.12.09-12.53.45:397][475]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.09-12.53.45:851][475]LogGarbage: Warning: 1.168988 ms for acquiring GC lock
+[2018.12.09-12.53.46:393][475]LogClass: Could not find existing class GhostTCPServer in package /Script/NetCuteGhost for HotReload, assuming new class
+[2018.12.09-12.53.46:457][475]LogHotReload: Re-instancing GhostTCPServer after hot-reload.
+[2018.12.09-12.53.46:883][475]LogContentBrowser: Native class hierarchy updated for 'NetCuteGhost' in 0.0320 seconds. Added 2 classes and 3 folders.
+[2018.12.09-12.53.46:906][475]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.12.09-12.53.47:199][475]LogContentBrowser: Native class hierarchy populated in 0.0728 seconds. Added 2577 classes and 611 folders.
+[2018.12.09-12.53.47:235][475]Display: HotReload took  1.8s.
+[2018.12.09-12.53.49:819][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.09-12.53.50:281][539]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.12.09-12.53.50:362][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.09-12.53.50:423][539]PIE: New page: PIE 세션: Map_GhostPlayGround (2018. 12. 10. 오전 6:53:50)
+[2018.12.09-12.53.50:430][539]LogUObjectGlobals: Warning: 'Class /Script/NetCuteGhost.NetCuteGhostGameInstance' 오브젝트를 찾는 데 실패했습니다.
+[2018.12.09-12.53.50:435][539]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_GhostPlayGround
+[2018.12.09-12.53.50:503][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066573s)
+[2018.12.09-12.53.50:548][539]LogAIModule: Creating AISystem for world Map_GhostPlayground
+[2018.12.09-12.53.50:563][539]LogPlayLevel: PIE: World Init took: (0.060075s)
+[2018.12.09-12.53.50:564][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_GhostPlayGround.Map_GhostPlayground to /Game/Map/UEDPIE_0_Map_GhostPlayGround.Map_GhostPlayground (0.130579s)
+[2018.12.09-12.53.50:733][539]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.09-12.53.50:848][539]LogInit: FAudioDevice initialized.
+[2018.12.09-12.53.50:953][539]LogLoad: Game class is 'NetCuteGhostGameModeBase'
+[2018.12.09-12.53.50:998][539]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_GhostPlayGround.Map_GhostPlayground up for play (max tick rate 60) at 2018.12.09-21.53.50
+[2018.12.09-12.53.51:001][539]LogWorld: Bringing up level for play took: 0.023098
+[2018.12.09-12.53.51:658][539]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0021 seconds. Added 10 classes and 0 folders.
+[2018.12.09-12.53.51:685][539]PIE: /Game/Map/UEDPIE_0_Map_GhostPlayGround 에 대한 에디터에서 플레이 시작 시간: 1.67
+[2018.12.09-12.53.53:759][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-12.53.53:835][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.09-12.53.53:876][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-12.53.53:936][642]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.12.09-12.53.54:387][658]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.09-12.53.54:413][658]LogSlate: Took 0.011678 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.12.09-12.53.54:482][658]LogSlate: Took 0.028966 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2018.12.09-12.54.07:936][ 87]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.12.09-12.54.07:962][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.09-12.54.07:963][ 87]PIE: New page: PIE 세션: Map_GhostPlayGround (2018. 12. 10. 오전 6:54:07)
+[2018.12.09-12.54.07:964][ 87]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_GhostPlayGround
+[2018.12.09-12.54.07:966][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002654s)
+[2018.12.09-12.54.07:973][ 87]LogAIModule: Creating AISystem for world Map_GhostPlayground
+[2018.12.09-12.54.07:974][ 87]LogPlayLevel: PIE: World Init took: (0.007614s)
+[2018.12.09-12.54.07:975][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_GhostPlayGround.Map_GhostPlayground to /Game/Map/UEDPIE_0_Map_GhostPlayGround.Map_GhostPlayground (0.010990s)
+[2018.12.09-12.54.08:132][ 87]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.09-12.54.08:209][ 87]LogInit: FAudioDevice initialized.
+[2018.12.09-12.54.08:244][ 87]LogLoad: Game class is 'NetCuteGhostGameModeBase'
+[2018.12.09-12.54.08:245][ 87]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_GhostPlayGround.Map_GhostPlayground up for play (max tick rate 60) at 2018.12.09-21.54.08
+[2018.12.09-12.54.08:245][ 87]LogWorld: Bringing up level for play took: 0.000954
+[2018.12.09-12.54.08:261][ 87]PIE: /Game/Map/UEDPIE_0_Map_GhostPlayGround 에 대한 에디터에서 플레이 시작 시간: 0.249
+[2018.12.09-12.54.15:663][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-12.54.15:702][512]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.09-12.54.15:733][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-12.54.15:775][514]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.12.09-12.54.28:462][974]LogEditor: Attempting to add actor of class 'GhostTCPServer' to level at -2550.00,1920.00,0.00
+[2018.12.09-12.54.29:085][998]LogEditor: Attempting to add actor of class 'GhostTCPServer' to level at -830.00,800.00,0.00
+[2018.12.09-12.54.30:321][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.09-12.54.30:411][ 41]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.12.09-12.54.30:438][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.09-12.54.30:438][ 41]PIE: New page: PIE 세션: Map_GhostPlayGround (2018. 12. 10. 오전 6:54:30)
+[2018.12.09-12.54.30:438][ 41]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_GhostPlayGround
+[2018.12.09-12.54.30:441][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002040s)
+[2018.12.09-12.54.30:443][ 41]LogAIModule: Creating AISystem for world Map_GhostPlayground
+[2018.12.09-12.54.30:444][ 41]LogPlayLevel: PIE: World Init took: (0.002963s)
+[2018.12.09-12.54.30:445][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_GhostPlayGround.Map_GhostPlayground to /Game/Map/UEDPIE_0_Map_GhostPlayGround.Map_GhostPlayground (0.006130s)
+[2018.12.09-12.54.30:577][ 41]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.09-12.54.30:648][ 41]LogInit: FAudioDevice initialized.
+[2018.12.09-12.54.30:690][ 41]LogLoad: Game class is 'NetCuteGhostGameModeBase'
+[2018.12.09-12.54.30:692][ 41]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_GhostPlayGround.Map_GhostPlayground up for play (max tick rate 60) at 2018.12.09-21.54.30
+[2018.12.09-12.54.30:693][ 41]LogWorld: Bringing up level for play took: 0.002082
+[2018.12.09-12.54.30:708][ 41]FTcpSocketBuilder: Failed to create the socket GhostListener as configured
