@@ -6,12 +6,16 @@
 #include "NetCuteGhost.h"
 #include "GameFramework/Actor.h"
 #include "Networking/Public/Networking.h"
+#include "Kismet/GameplayStatics.h"
+#include "PacketContainer.h"
 #include "GhostTCPServer.generated.h"
+
+#define NET_MAXLEN 32
 
 UCLASS()
 class NETCUTEGHOST_API AGhostTCPServer : public AActor
 {
-#define BUFSIZE 256
+#define BUFSIZE 64
 
 	GENERATED_BODY()
 	
@@ -65,6 +69,10 @@ public:
 
 	// 바이너리 데이터를 FString 데이터로 변환합니다.
 	FString StringFromBinaryArray(TArray<uint8>& BinaryArray);
+
+
+	// 서버로 들어온 패킷을 파싱하여, 플레이어 인덱스와 입력을 반환합니다.
+	void ParsePacket(FString InString);
 	
 
 private:
@@ -84,4 +92,42 @@ private:
 	
 	// 원격 주소에 대한 클래스 스코프 캐시입니다.
 	FIPv4Endpoint RemoteAddressForConnection;
+
+	// 클라이언트의 데이터를 확인하는 함수에 대한 타이머 핸들입니다.
+	FTimerHandle TimerHandle;
+
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Network", meta = (AllowPrivateAccess = "true"))
+	// 수신된 패킷을 저장하는 컨테이너입니다.
+	TMap<FString, FString> PacketContainer;
+};
+
+
+
+
+
+class FNetMessage
+{
+public:
+	FNetMessage() = delete;
+	
+	class GAME
+	{
+		GAME() = delete;
+
+		// 무브먼트 섹션
+		static const FString UP;
+		static const FString DOWN;
+		static const FString LEFT;
+		static const FString RIGHT;
+
+		// 슬로우 무브먼트 섹션
+		static const FString SLOWUP;
+		static const FString SLOWDOWN;
+		static const FString SLOWLEFT;
+		static const FString SLOWRIGHT;
+
+		// 액션 섹션
+		static const FString STOP;
+		static const FString DASH;
+	};
 };

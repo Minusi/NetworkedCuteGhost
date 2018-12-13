@@ -1,0 +1,564 @@
+﻿Log file open, 12/13/18 12:25:21
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: NetCuteGhost
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.352154
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.184s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files (x86)/~Game/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.010s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.13-03.25.21:877][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.13-03.25.21:877][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.13-03.25.21:899][  0]LogHAL: Display: Platform has ~ 8 GB [8393322496 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.13-03.25.21:899][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.13-03.25.21:899][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.13-03.25.21:900][  0]LogInit: Computer: DESKTOP-33J3PSK
+[2018.12.13-03.25.21:900][  0]LogInit: User: Utsuho
+[2018.12.13-03.25.21:900][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.13-03.25.21:900][  0]LogInit: High frequency timer resolution =2.531245 MHz
+[2018.12.13-03.25.21:901][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2018.12.13-03.25.21:901][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.13-03.25.21:901][  0]LogMemory: Process Physical Memory: 100.45 MB used, 100.45 MB peak
+[2018.12.13-03.25.21:901][  0]LogMemory: Process Virtual Memory: 89.28 MB used, 89.28 MB peak
+[2018.12.13-03.25.21:901][  0]LogMemory: Physical Memory: 5596.70 MB used,  2407.80 MB free, 8004.50 MB total
+[2018.12.13-03.25.21:901][  0]LogMemory: Virtual Memory: 4643.79 MB used,  2407.80 MB free, 134217728.00 MB total
+[2018.12.13-03.25.21:973][  0]LogInit: Using OS detected language (ko-KR).
+[2018.12.13-03.25.21:973][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.12.13-03.25.21:974][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.12.13-03.25.22:391][  0]LogStreaming: Display: Took  0.420s to InitEngineTextLocalization.
+[2018.12.13-03.25.22:392][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.13-03.25.22:489][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.13-03.25.22:489][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.13-03.25.22:836][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.13-03.25.22:836][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.13-03.25.22:853][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.12.13-03.25.22:853][  0]LogD3D11RHI:       128/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.12.13-03.25.22:885][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.12.13-03.25.22:885][  0]LogD3D11RHI:       1993/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.13-03.25.22:889][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.13-03.25.22:889][  0]LogD3D11RHI:       0/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.13-03.25.22:889][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2018.12.13-03.25.22:902][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.13-03.25.22:902][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.12.13-03.25.22:902][  0]LogWindows: EnumDisplayDevices:
+[2018.12.13-03.25.22:903][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.12.13-03.25.22:904][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.13-03.25.22:905][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.13-03.25.22:906][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960M' (P:0 D:1)
+[2018.12.13-03.25.22:907][  0]LogWindows:    4. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.12.13-03.25.22:908][  0]LogWindows:    5. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.12.13-03.25.22:909][  0]LogWindows:    6. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.12.13-03.25.22:910][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
+[2018.12.13-03.25.22:911][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.12.13-03.25.22:911][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.12.13-03.25.22:911][  0]LogD3D11RHI:   Driver Version: 353.54 (internal:10.18.13.5354, unified:353.54)
+[2018.12.13-03.25.22:911][  0]LogD3D11RHI:      Driver Date: 7-13-2015
+[2018.12.13-03.25.22:911][  0]LogRHI: Texture pool is 1395 MB (70% of 1993 MB)
+[2018.12.13-03.25.22:933][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2018.12.13-03.25.22:934][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.13-03.25.22:947][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.12.13-03.25.22:953][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Intermediate/Shaders/WorkingDirectory/8232/).
+[2018.12.13-03.25.22:953][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Utsuho/AppData/Local/Temp/UnrealShaderWorkingDir/B9DC28D441879D314334F49E00D2990F/'.
+[2018.12.13-03.25.23:490][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.13-03.25.23:507][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.13-03.25.23:524][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.13-03.25.23:542][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.13-03.25.23:565][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.13-03.25.23:581][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.13-03.25.23:599][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.13-03.25.23:616][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.13-03.25.23:625][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-03.25.23:719][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.13-03.25.23:789][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.13-03.25.23:789][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.13-03.25.23:823][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.13-03.25.23:823][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.13-03.25.23:839][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.13-03.25.23:855][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.13-03.25.23:871][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.13-03.25.23:887][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.13-03.25.23:898][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.13-03.25.23:898][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.13-03.25.23:999][  0]LogXGEController: Cleaning working directory: C:/Users/Utsuho/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.13-03.25.23:999][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.13-03.25.24:000][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.13-03.25.24:000][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.13-03.25.24:918][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.13-03.25.24:986][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.13-03.25.24:986][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.13-03.25.24:986][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.13-03.25.24:986][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.13-03.25.24:987][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.13-03.25.24:987][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.13-03.25.25:001][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.13-03.25.25:014][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Utsuho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.13-03.25.25:014][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.13-03.25.25:014][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.13-03.25.25:035][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.13-03.25.25:036][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.13-03.25.25:037][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.13-03.25.25:125][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
+[2018.12.13-03.25.25:531][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.13-03.25.25:702][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.13-03.25.25:708][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.13-03.25.25:708][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.13-03.25.25:708][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.13-03.25.25:708][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.13-03.25.25:735][  0]LogNetVersion: NetCuteGhost 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3007799762)
+[2018.12.13-03.25.26:377][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.141870 seconds
+[2018.12.13-03.25.26:384][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.13-03.25.26:384][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.13-03.25.26:384][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.13-03.25.27:562][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.13-03.25.27:578][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.13-03.25.27:780][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.13-03.25.27:781][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.13-03.25.27:784][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.13-03.25.27:786][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.13-03.25.28:007][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.13-03.25.28:267][  0]LogOcInput: OculusInput pre-init called
+[2018.12.13-03.25.28:339][  0]LogEngine: Initializing Engine...
+[2018.12.13-03.25.28:340][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.13-03.25.28:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.13-03.25.28:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.13-03.25.28:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.13-03.25.28:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.13-03.25.28:604][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.13-03.25.28:623][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.13-03.25.28:732][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.13-03.25.28:900][  0]LogInit: FAudioDevice initialized.
+[2018.12.13-03.25.28:900][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.13-03.25.29:034][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.13-03.25.29:052][  0]LogInit: Texture streaming: Enabled
+[2018.12.13-03.25.29:085][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.13-03.25.29:086][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={3F699674-475F-BB3D-D402-4A935BFD39F3}
+[2018.12.13-03.25.29:106][  0]LogInit: Transaction tracking system initialized
+[2018.12.13-03.25.29:148][  0]BlueprintLog: New page: 에디터 로드
+[2018.12.13-03.25.29:272][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.12.13-03.25.29:623][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.13-03.25.29:623][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.13-03.25.29:623][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.13-03.25.29:623][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.13-03.25.29:624][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.13-03.25.29:624][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.13-03.25.29:624][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.13-03.25.29:827][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/' took 0.02s
+[2018.12.13-03.25.29:827][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.13-03.25.29:827][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/Map/Map_GhostPlayGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.13-03.25.29:828][  0]LightingResults: New page: 라이팅 빌드
+[2018.12.13-03.25.29:834][  0]MapCheck: New page: 맵 체크
+[2018.12.13-03.25.29:834][  0]LightingResults: New page: 라이팅 빌드
+[2018.12.13-03.25.30:279][  0]LogAIModule: Creating AISystem for world Map_GhostPlayground
+[2018.12.13-03.25.30:287][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.13-03.25.30:315][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.13-03.25.30:424][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 109.337ms.
+[2018.12.13-03.25.30:424][  0]LogFileHelpers: Loading map 'Map_GhostPlayGround' took 0.597
+[2018.12.13-03.25.30:537][  0]LogCollectionManager: Loaded 0 collections in 0.002627 seconds
+[2018.12.13-03.25.30:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Saved/Collections/' took 0.01s
+[2018.12.13-03.25.30:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/Developers/Utsuho/Collections/' took 0.01s
+[2018.12.13-03.25.30:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/Collections/' took 0.01s
+[2018.12.13-03.25.30:587][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.13-03.25.30:602][  0]LogContentBrowser: Native class hierarchy populated in 0.0149 seconds. Added 2577 classes and 606 folders.
+[2018.12.13-03.25.30:612][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.13-03.25.30:679][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.13-03.25.30:694][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-03.25.30:703][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-03.25.30:712][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-03.25.30:721][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-03.25.30:730][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.12.13-03.25.30:741][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2018.12.13-03.25.30:821][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.13-03.25.30:824][  0]LogSlate: Took 0.002599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.12.13-03.25.30:828][  0]LogSlate: Took 0.000583 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.13-03.25.30:833][  0]LogSlate: Took 0.004777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.12.13-03.25.30:834][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.13-03.25.30:834][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.12.13-03.25.30:868][  0]LogSlate: Took 0.006344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2018.12.13-03.25.30:965][  0]LogRenderer: Reallocating scene render targets to support 892x904 Format 10 NumSamples 1 (Frame:1).
+[2018.12.13-03.25.31:182][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.12.13-03.25.31:182][  0]LogLoad: (Engine Initialization) Total time: 11.89 seconds
+[2018.12.13-03.25.31:182][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.13-03.25.31:233][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.13-03.25.31:269][  1]LogAssetRegistry: Asset discovery search completed in 6.1672 seconds
+[2018.12.13-03.25.31:271][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.13-03.25.31:272][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000256 seconds (updated 0 objects)
+[2018.12.13-03.30.47:272][121]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.13-03.30.49:044][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.13-03.30.55:636][599]LogSlate: Took 0.017301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.13-03.30.55:657][599]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround
+[2018.12.13-03.30.56:480][599]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.12.13-03.30.57:614][599]LogSlate: Took 0.007863 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.13-03.30.57:790][600]LogSlate: Took 0.001069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.13-03.31.26:913][799]LogHotReload: New module detected: UE4Editor-NetCuteGhost-126.dll
+[2018.12.13-03.31.28:839][848]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.13-03.31.29:030][848]LogContentBrowser: Native class hierarchy updated for 'NetCuteGhost' in 0.0008 seconds. Added 5 classes and 3 folders.
+[2018.12.13-03.31.29:036][848]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.12.13-03.31.29:538][848]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2580 classes and 611 folders.
+[2018.12.13-03.31.29:564][848]Display: HotReload took  0.7s.
+[2018.12.13-03.31.48:362][632]BlueprintLog: New page: Map_GhostPlayGround 컴파일
+[2018.12.13-03.31.59:972][112]BlueprintLog: New page: Map_GhostPlayGround 컴파일
+[2018.12.13-03.32.00:814][135]LogSlate: Window 'Map_GhostPlayGround* - 레벨 블루프린트 에디터' being destroyed
+[2018.12.13-03.32.01:822][184]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.12.13-03.32.01:854][184]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround' with GeneratedClass '/Game/Map/Map_GhostPlayGround.Map_GhostPlayGround_C' with ClassGeneratedBy '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround'
+[2018.12.13-03.32.01:856][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.13-03.32.01:877][184]PIE: New page: PIE 세션: Map_GhostPlayGround (2018. 12. 13. 오후 9:32:01)
+[2018.12.13-03.32.01:877][184]LogUObjectGlobals: Warning: 'Class /Script/NetCuteGhost.NetCuteGhostGameInstance' 오브젝트를 찾는 데 실패했습니다.
+[2018.12.13-03.32.01:878][184]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_GhostPlayGround
+[2018.12.13-03.32.01:886][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007942s)
+[2018.12.13-03.32.01:887][184]LogAIModule: Creating AISystem for world Map_GhostPlayground
+[2018.12.13-03.32.01:888][184]LogPlayLevel: PIE: World Init took: (0.001677s)
+[2018.12.13-03.32.01:889][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_GhostPlayGround.Map_GhostPlayground to /Game/Map/UEDPIE_0_Map_GhostPlayGround.Map_GhostPlayground (0.010723s)
+[2018.12.13-03.32.02:051][184]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.13-03.32.02:127][184]LogInit: FAudioDevice initialized.
+[2018.12.13-03.32.02:190][184]LogLoad: Game class is 'BP_CuteGhost_Gamemode_C'
+[2018.12.13-03.32.02:200][184]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_GhostPlayGround.Map_GhostPlayground up for play (max tick rate 60) at 2018.12.13-12.32.02
+[2018.12.13-03.32.02:203][184]LogWorld: Bringing up level for play took: 0.004393
+[2018.12.13-03.32.02:645][184]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2018.12.13-03.32.02:652][184]NetCuteGhost: AGhostTCPServer::InitNetwork(57) : Start Initiate Network System, 192.168.43.170, 12357
+[2018.12.13-03.32.02:652][184]NetCuteGhost: AGhostTCPServer::InitListenerSocket(72)
+[2018.12.13-03.32.02:652][184]NetCuteGhost: AGhostTCPServer::CreateListenerSocket(95)
+[2018.12.13-03.32.02:652][184]NetCuteGhost: AGhostTCPServer::CreateListenerSocket(98) : ReceivedBufferSize is 64
+[2018.12.13-03.32.02:652][184]NetCuteGhost: AGhostTCPServer::CreateListenerSocket(113) : 192.168.43.170:12357
+[2018.12.13-03.32.02:653][184]NetCuteGhost: AGhostTCPServer::CreateListenerSocket(132) : ReceivedBufferSize is 64, and NewSize is 64
+[2018.12.13-03.32.02:653][184]NetCuteGhost: AGhostTCPServer::InitNetwork(67) : Network System successfully init! 
+[2018.12.13-03.32.02:655][184]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2018.12.13-03.32.02:655][184]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2018.12.13-03.32.02:661][184]LogSlate: New Slate User Created.  User Index 2, Is Virtual User: 0
+[2018.12.13-03.32.02:661][184]LogSlate: Slate User Registered.  User Index 2, Is Virtual User: 0
+[2018.12.13-03.32.02:663][184]LogSlate: New Slate User Created.  User Index 3, Is Virtual User: 0
+[2018.12.13-03.32.02:663][184]LogSlate: Slate User Registered.  User Index 3, Is Virtual User: 0
+[2018.12.13-03.32.02:665][184]PIE: /Game/Map/UEDPIE_0_Map_GhostPlayGround 에 대한 에디터에서 플레이 시작 시간: 0.657
+[2018.12.13-03.32.02:666][184]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround' with GeneratedClass '/Game/Map/Map_GhostPlayGround.Map_GhostPlayGround_C' with ClassGeneratedBy '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround'
+[2018.12.13-03.33.36:038][638]NetCuteGhost: AGhostTCPServer::ActivateListenerSocket(153) : HasPendingConnection is true
+[2018.12.13-03.33.36:039][638]NetCuteGhost: Warning: AGhostTCPServer::ActivateListenerSocket(171) : Accept Success
+[2018.12.13-03.33.58:731][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.13-03.34.00:266][459]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround' with GeneratedClass '/Game/Map/Map_GhostPlayGround.Map_GhostPlayGround_C' with ClassGeneratedBy '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround'
+[2018.12.13-03.34.00:269][459]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-03.34.00:275][459]NetCuteGhost: AGhostTCPServer::EndPlay(38)
+[2018.12.13-03.34.00:309][459]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.13-03.34.00:309][459]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround' with GeneratedClass '/Game/Map/Map_GhostPlayGround.Map_GhostPlayGround_C' with ClassGeneratedBy '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround'
+[2018.12.13-03.34.00:348][459]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-03.34.00:372][460]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.12.13-03.34.05:355][743]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround
+[2018.12.13-03.34.07:389][795]LogSlate: Window 'Map_GhostPlayGround* - 레벨 블루프린트 에디터' being destroyed
+[2018.12.13-03.34.18:949][430]BlueprintLog: New page: Map_GhostPlayGround 컴파일
+[2018.12.13-03.34.46:446][140]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.13-03.34.48:808][191]LogSlate: Window '콘텐츠 저장' being destroyed
+[2018.12.13-03.34.49:537][191]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Saved/Map_GhostPlayGround31E4505D4369B01551DD4C8685BAB689.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Content/Map/Map_GhostPlayGround.umap'
+[2018.12.13-03.34.49:603][191]LogFileHelpers: Saving map 'Map_GhostPlayGround' took 0.730
+[2018.12.13-03.34.54:119][451]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.12.13-03.34.54:153][451]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround' with GeneratedClass '/Game/Map/Map_GhostPlayGround.Map_GhostPlayGround_C' with ClassGeneratedBy '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround'
+[2018.12.13-03.34.54:153][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.13-03.34.54:153][451]PIE: New page: PIE 세션: Map_GhostPlayGround (2018. 12. 13. 오후 9:34:54)
+[2018.12.13-03.34.54:153][451]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_GhostPlayGround
+[2018.12.13-03.34.54:161][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007797s)
+[2018.12.13-03.34.54:162][451]LogAIModule: Creating AISystem for world Map_GhostPlayground
+[2018.12.13-03.34.54:163][451]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2018.12.13-03.34.54:163][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_GhostPlayGround.Map_GhostPlayground to /Game/Map/UEDPIE_0_Map_GhostPlayGround.Map_GhostPlayground (0.009324s)
+[2018.12.13-03.34.54:329][451]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.13-03.34.54:393][451]LogInit: FAudioDevice initialized.
+[2018.12.13-03.34.54:426][451]LogLoad: Game class is 'BP_CuteGhost_Gamemode_C'
+[2018.12.13-03.34.54:429][451]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_GhostPlayGround.Map_GhostPlayground up for play (max tick rate 60) at 2018.12.13-12.34.54
+[2018.12.13-03.34.54:429][451]LogWorld: Bringing up level for play took: 0.001293
+[2018.12.13-03.34.54:442][451]NetCuteGhost: AGhostTCPServer::InitNetwork(57) : Start Initiate Network System, 192.168.43.170, 12357
+[2018.12.13-03.34.54:442][451]NetCuteGhost: AGhostTCPServer::InitListenerSocket(72)
+[2018.12.13-03.34.54:442][451]NetCuteGhost: AGhostTCPServer::CreateListenerSocket(95)
+[2018.12.13-03.34.54:442][451]NetCuteGhost: AGhostTCPServer::CreateListenerSocket(98) : ReceivedBufferSize is 64
+[2018.12.13-03.34.54:442][451]NetCuteGhost: AGhostTCPServer::CreateListenerSocket(113) : 192.168.43.170:12357
+[2018.12.13-03.34.54:442][451]NetCuteGhost: AGhostTCPServer::CreateListenerSocket(132) : ReceivedBufferSize is 64, and NewSize is 64
+[2018.12.13-03.34.54:442][451]NetCuteGhost: AGhostTCPServer::InitNetwork(67) : Network System successfully init! 
+[2018.12.13-03.34.54:450][451]PIE: /Game/Map/UEDPIE_0_Map_GhostPlayGround 에 대한 에디터에서 플레이 시작 시간: 0.442
+[2018.12.13-03.34.54:451][451]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround' with GeneratedClass '/Game/Map/Map_GhostPlayGround.Map_GhostPlayGround_C' with ClassGeneratedBy '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround'
+[2018.12.13-03.34.54:452][451]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:496][452]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:512][453]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:530][454]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:545][455]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:564][456]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:580][457]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:596][458]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:613][459]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:629][460]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:646][461]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:663][462]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:679][463]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:696][464]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:712][465]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:729][466]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:746][467]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:762][468]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:779][469]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:795][470]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:813][471]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:832][472]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:847][473]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:865][474]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:880][475]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:899][476]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:913][477]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:933][478]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:949][479]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:967][480]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:981][481]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.54:998][482]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:013][483]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:031][484]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:047][485]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:064][486]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:080][487]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:097][488]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:113][489]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:131][490]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:149][491]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:164][492]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:180][493]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:199][494]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:213][495]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:231][496]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:247][497]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:264][498]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:280][499]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:297][500]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:314][501]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:330][502]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:347][503]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:363][504]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:380][505]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:397][506]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:413][507]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:430][508]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:446][509]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:463][510]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:480][511]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:497][512]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:514][513]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:531][514]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:547][515]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:563][516]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:580][517]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:598][518]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:615][519]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:630][520]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:647][521]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:664][522]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:681][523]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:697][524]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:714][525]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:732][526]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:747][527]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:764][528]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:780][529]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:797][530]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:813][531]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:831][532]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:847][533]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:864][534]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:884][535]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:905][536]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:919][537]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:933][538]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:950][539]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:967][540]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.55:983][541]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:000][542]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:016][543]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:033][544]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:052][545]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:067][546]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:084][547]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:100][548]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:117][549]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:133][550]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:150][551]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:169][552]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:183][553]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:201][554]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:217][555]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:234][556]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:251][557]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:267][558]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:284][559]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:301][560]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:317][561]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:333][562]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:350][563]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:367][564]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:383][565]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:401][566]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:417][567]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:434][568]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:451][569]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:469][570]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:484][571]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:500][572]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:517][573]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:534][574]LogBlueprintUserMessages: [Map_GhostPlayGround_C_3] Hello
+[2018.12.13-03.34.56:536][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround' with GeneratedClass '/Game/Map/Map_GhostPlayGround.Map_GhostPlayGround_C' with ClassGeneratedBy '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround'
+[2018.12.13-03.34.56:536][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-03.34.56:544][574]NetCuteGhost: AGhostTCPServer::EndPlay(38)
+[2018.12.13-03.34.56:575][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.13-03.34.56:576][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround' with GeneratedClass '/Game/Map/Map_GhostPlayGround.Map_GhostPlayGround_C' with ClassGeneratedBy '/Game/Map/Map_GhostPlayGround.Map_GhostPlayground:PersistentLevel.Map_GhostPlayGround'
+[2018.12.13-03.34.56:617][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-03.34.56:642][575]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.12.13-03.35.02:610][922]LogTemp: Repeating last play command: 독립형 게임

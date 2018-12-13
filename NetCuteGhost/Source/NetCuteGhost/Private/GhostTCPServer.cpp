@@ -4,6 +4,8 @@
 #include "TimerManager.h"
 #include "UnrealString.h"
 #include "Engine/Engine.h"
+#include "HAL/UnrealMemory.h"
+#include "Misc/CString.h"
 
 // Sets default values
 AGhostTCPServer::AGhostTCPServer()
@@ -19,7 +21,6 @@ AGhostTCPServer::AGhostTCPServer()
 void AGhostTCPServer::BeginPlay()
 {
 	Super::BeginPlay();
-	
 	InitNetwork();
 }
 
@@ -80,7 +81,7 @@ bool AGhostTCPServer::InitListenerSocket(const FString & ListenerSocketName)
 	}
 
 	FTimerHandle TimerHandle;
-	GetWorldTimerManager().SetTimer(TimerHandle, this, &AGhostTCPServer::ActivateListenerSocket, 0.01f, true);
+	GetWorldTimerManager().SetTimer(TimerHandle, this, &AGhostTCPServer::ActivateListenerSocket, 0.1f, true);
 
 	return true;
 }
@@ -169,8 +170,7 @@ void AGhostTCPServer::ActivateListenerSocket()
 
 			UE_LOG(NetCuteGhost, Warning, TEXT("%s : Accept Success"), *CALLINFO);
 
-			FTimerHandle TimerHandle;
-			GetWorldTimerManager().SetTimer(TimerHandle, this, &AGhostTCPServer::ActivateConnectionSocket, 0.01f, true);
+			GetWorldTimerManager().SetTimer(TimerHandle, this, &AGhostTCPServer::ActivateConnectionSocket, 0.1f, true);
 		}
 	}
 }
@@ -185,31 +185,32 @@ void AGhostTCPServer::ActivateConnectionSocket()
 	}
 
 	// 네트워크를 통해 수신받을 바이너리 데이터를 선언합니다.
-	int8 RecvedData[BUFSIZE];
+	
+	char RecvedData[BUFSIZE];
+	FMemory::Memset(RecvedData, 0, sizeof(RecvedData));
+
+
 	uint32 DataSize;
-	int32 ReadNum = 0;
 	while (ConnectionSocket->HasPendingData(DataSize) == true)
 	{
-		ReadNum = 0;
+		GetWorldTimerManager().PauseTimer(TimerHandle);
+		int32 ReadNum = 0;
 
 		// Recv를 통해 수신합니다.
 		ConnectionSocket->Recv(reinterpret_cast<uint8*>(RecvedData), sizeof(RecvedData), ReadNum);
-
-		// 데이터를 수신하지 않았으면 함수를 종료합니다.
-		if (ReadNum <= 0)
-		{
-			//UE_LOG(NetCuteGhost, Warning, TEXT("%s : No Data Received"), *CALLINFO);
-			return;
-		}
-
-		// 수신받은 데이터를 FString으로 변환합니다.
-		const FString RecvedFString = FString(UTF8_TO_TCHAR(RecvedData));
-
-		GEngine->AddOnScreenDebugMessage(-1, 20.f, FColor::Blue,
-			FString::Printf(TEXT("String Data : %s"), *RecvedFString));
-		UE_LOG(NetCuteGhost, Log, TEXT("%s : String Data >> %s"),
-			*CALLINFO, *RecvedFString);
 	}
+	GetWorldTimerManager().UnPauseTimer(TimerHandle);
+
+	// TODO : NON UNIVERSAL CODE
+	if ( strlen(RecvedData) <= 0 )
+	{
+		return;
+	}
+
+	
+
+	FString PacketString(RecvedData);
+	ParsePacket(PacketString);
 }
 
 
@@ -254,3 +255,45 @@ FString AGhostTCPServer::StringFromBinaryArray(TArray<uint8>& BinaryArray)
 	return FString(ANSI_TO_TCHAR(reinterpret_cast<const char*>(BinaryArray.GetData())));
 }
 
+
+
+void AGhostTCPServer::ParsePacket(FString InString)
+{
+	TArray<FString> ParsedArray;
+	InString.ParseIntoArray(ParsedArray, TEXT(","), true);
+
+	FString IndexString = ParsedArray[0];
+	FString InputString = ParsedArray[1];
+
+	//int32 WeightValue = 0;
+	//while (PacketContainer.Find(*ParsedArray[0]) == nullptr)
+	//{
+	//	WeightValue += 10;
+	//}
+	//if (WeightValue == 0)
+	//{
+	PacketContainer.Add(IndexString, InputString);
+	//}
+	//else
+	//{
+	//	int32 StringToInt = FCString::Atoi(*ParsedArray[0]);
+	//	StringToInt += WeightValue;
+	//	FString IntToString(FString::FromInt(StringToInt));
+
+	//	PacketContainer.Add(IntToString, ParsedArray[1]);
+	//}
+}
+
+
+const FString FNetMessage::GAME::UP = "%up";
+const FString FNetMessage::GAME::DOWN = "%down";
+const FString FNetMessage::GAME::LEFT = "%left";
+const FString FNetMessage::GAME::RIGHT = "%right";
+
+const FString FNetMessage::GAME::SLOWUP = "%slowup";
+const FString FNetMessage::GAME::SLOWDOWN = "%slowdown";
+const FString FNetMessage::GAME::SLOWLEFT = "%slowleft";
+const FString FNetMessage::GAME::SLOWRIGHT = "%slowright";
+
+const FString FNetMessage::GAME::STOP = "%stop";
+const FString FNetMessage::GAME::DASH = "%dash";

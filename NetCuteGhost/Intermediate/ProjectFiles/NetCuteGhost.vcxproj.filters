@@ -60,6 +60,9 @@
     <ClInclude Include="..\..\Source\NetCuteGhost\Public\GhostGameInstance.h">
       <Filter>Source\NetCuteGhost\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\NetCuteGhost\Public\PacketContainer.h">
+      <Filter>Source\NetCuteGhost\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\NetCuteGhost\Private\GhostTCPServer.cpp">
@@ -69,6 +72,9 @@
       <Filter>Source\NetCuteGhost\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\NetCuteGhost\Private\GhostGameInstance.cpp">
+      <Filter>Source\NetCuteGhost\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetCuteGhost\Private\PacketContainer.cpp">
       <Filter>Source\NetCuteGhost\Private</Filter>
     </ClCompile>
   </ItemGroup>

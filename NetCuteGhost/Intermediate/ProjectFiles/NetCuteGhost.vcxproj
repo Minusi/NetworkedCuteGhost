@@ -262,7 +262,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -285,12 +285,13 @@
     <NMakeReBuildCommandLine>@echo Win32 is not a supported platform for NetCuteGhostEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>@echo Win32 is not a supported platform for NetCuteGhostEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
     <NMakeOutput />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -307,7 +308,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -324,7 +325,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -347,12 +348,13 @@
     <NMakeReBuildCommandLine>@echo IOS is not a supported platform for NetCuteGhostEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>@echo IOS is not a supported platform for NetCuteGhostEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
     <NMakeOutput />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -375,12 +377,13 @@
     <NMakeReBuildCommandLine>@echo HTML5 is not a supported platform for NetCuteGhostEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>@echo HTML5 is not a supported platform for NetCuteGhostEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
     <NMakeOutput />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -403,12 +406,13 @@
     <NMakeReBuildCommandLine>@echo Win32 is not a supported platform for NetCuteGhostEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>@echo Win32 is not a supported platform for NetCuteGhostEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
     <NMakeOutput />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -425,7 +429,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -442,7 +446,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -465,12 +469,13 @@
     <NMakeReBuildCommandLine>@echo IOS is not a supported platform for NetCuteGhostEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>@echo IOS is not a supported platform for NetCuteGhostEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
     <NMakeOutput />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -493,12 +498,13 @@
     <NMakeReBuildCommandLine>@echo HTML5 is not a supported platform for NetCuteGhostEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>@echo HTML5 is not a supported platform for NetCuteGhostEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
     <NMakeOutput />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -515,7 +521,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -532,7 +538,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -549,7 +555,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'">
-    <IncludePath />
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
     <ReferencePath />
     <LibraryPath />
     <LibraryWPath />
@@ -566,9 +572,11 @@
     <ClCompile Include="..\..\Source\NetCuteGhost\Private\CuteGhostPawnBase.cpp" />
     <ClCompile Include="..\..\Source\NetCuteGhost\Private\GhostGameInstance.cpp" />
     <ClCompile Include="..\..\Source\NetCuteGhost\Private\GhostTCPServer.cpp" />
+    <ClCompile Include="..\..\Source\NetCuteGhost\Private\PacketContainer.cpp" />
     <ClInclude Include="..\..\Source\NetCuteGhost\Public\CuteGhostPawnBase.h" />
     <ClInclude Include="..\..\Source\NetCuteGhost\Public\GhostGameInstance.h" />
     <ClInclude Include="..\..\Source\NetCuteGhost\Public\GhostTCPServer.h" />
+    <ClInclude Include="..\..\Source\NetCuteGhost\Public\PacketContainer.h" />
     <None Include="..\..\NetCuteGhost.uproject" />
     <None Include="..\..\Source\NetCuteGhost.Target.cs" />
     <None Include="..\..\Source\NetCuteGhostEditor.Target.cs" />
@@ -590,6 +598,36 @@
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
     <NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|x64'">
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|x64'">
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|x64'">
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|x64'">
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|x64'">
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|x64'">
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|x64'">
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|x64'">
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|x64'">
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|x64'">
+    <IncludePath>C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Source\NetCuteGhost\Public;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

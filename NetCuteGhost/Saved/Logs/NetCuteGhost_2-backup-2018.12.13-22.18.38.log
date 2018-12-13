@@ -1,0 +1,947 @@
+﻿Log file open, 12/13/18 21:56:02
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: NetCuteGhost
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.439500
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.111s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  /Game/Map/Map_GhostPlayGround -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base Directory: C:/Program Files (x86)/~Game/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.011s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.13-12.56.03:577][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.13-12.56.03:577][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.13-12.56.03:593][  0]LogHAL: Display: Platform has ~ 8 GB [8393322496 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.13-12.56.03:593][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.13-12.56.03:593][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.13-12.56.03:602][  0]LogInit: Computer: DESKTOP-33J3PSK
+[2018.12.13-12.56.03:602][  0]LogInit: User: Utsuho
+[2018.12.13-12.56.03:602][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.13-12.56.03:602][  0]LogInit: High frequency timer resolution =2.531245 MHz
+[2018.12.13-12.56.03:602][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2018.12.13-12.56.03:602][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.13-12.56.03:602][  0]LogMemory: Process Physical Memory: 101.13 MB used, 101.13 MB peak
+[2018.12.13-12.56.03:602][  0]LogMemory: Process Virtual Memory: 89.49 MB used, 89.49 MB peak
+[2018.12.13-12.56.03:603][  0]LogMemory: Physical Memory: 7147.66 MB used,  856.84 MB free, 8004.50 MB total
+[2018.12.13-12.56.03:603][  0]LogMemory: Virtual Memory: 4643.79 MB used,  856.84 MB free, 134217728.00 MB total
+[2018.12.13-12.56.03:671][  0]LogInit: Using OS detected language (ko-KR).
+[2018.12.13-12.56.03:671][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.12.13-12.56.03:672][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.12.13-12.56.04:296][  0]LogStreaming: Display: Took  0.624s to InitEngineTextLocalization.
+[2018.12.13-12.56.04:416][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.13-12.56.04:417][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.13-12.56.04:430][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.13-12.56.04:430][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.13-12.56.04:452][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.12.13-12.56.04:452][  0]LogD3D11RHI:       128/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.12.13-12.56.04:510][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.12.13-12.56.04:510][  0]LogD3D11RHI:       1993/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.13-12.56.04:521][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.13-12.56.04:521][  0]LogD3D11RHI:       0/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.13-12.56.04:521][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2018.12.13-12.56.04:541][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.13-12.56.04:541][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.12.13-12.56.04:541][  0]LogWindows: EnumDisplayDevices:
+[2018.12.13-12.56.04:542][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.12.13-12.56.04:543][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.13-12.56.04:544][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.13-12.56.04:546][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960M' (P:0 D:1)
+[2018.12.13-12.56.04:547][  0]LogWindows:    4. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.12.13-12.56.04:548][  0]LogWindows:    5. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.12.13-12.56.04:550][  0]LogWindows:    6. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.12.13-12.56.04:551][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
+[2018.12.13-12.56.04:551][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.12.13-12.56.04:551][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.12.13-12.56.04:551][  0]LogD3D11RHI:   Driver Version: 353.54 (internal:10.18.13.5354, unified:353.54)
+[2018.12.13-12.56.04:551][  0]LogD3D11RHI:      Driver Date: 7-13-2015
+[2018.12.13-12.56.04:551][  0]LogRHI: Texture pool is 1395 MB (70% of 1993 MB)
+[2018.12.13-12.56.04:586][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2018.12.13-12.56.04:586][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.13-12.56.04:602][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.12.13-12.56.04:623][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/Intermediate/Shaders/WorkingDirectory/35692/).
+[2018.12.13-12.56.04:623][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Utsuho/AppData/Local/Temp/UnrealShaderWorkingDir/99A3EB6A4212B523D51D4CB637598F38/'.
+[2018.12.13-12.56.05:555][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.13-12.56.05:584][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.13-12.56.05:612][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.13-12.56.05:634][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.13-12.56.05:635][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.13-12.56.05:811][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.13-12.56.05:811][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.13-12.56.05:811][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.13-12.56.08:936][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.13-12.56.09:160][  0]LogDerivedDataCache: Loaded boot cache 0.22s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.13-12.56.09:161][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.13-12.56.09:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.13-12.56.09:161][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.13-12.56.09:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/CuteGhost/NetCuteGhost/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.13-12.56.09:161][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.13-12.56.09:178][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.13-12.56.09:191][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Utsuho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.13-12.56.09:191][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.13-12.56.09:191][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.13-12.56.09:224][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.13-12.56.09:226][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.13-12.56.09:236][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.13-12.56.09:651][  0]LogInit: Using OS detected language (ko-KR).
+[2018.12.13-12.56.09:651][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.12.13-12.56.09:651][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the language.
+[2018.12.13-12.56.09:651][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the locale.
+[2018.12.13-12.56.10:187][  0]LogStreaming: Display: Took  0.537s to InitGameTextLocalization.
+[2018.12.13-12.56.10:201][  0]LogAssetRegistry: FAssetRegistry took 0.0081 seconds to start up
+[2018.12.13-12.56.10:461][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.018520 seconds
+[2018.12.13-12.56.10:643][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.13-12.56.10:861][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.13-12.56.10:877][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.13-12.56.10:877][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.13-12.56.10:877][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.13-12.56.10:877][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.13-12.56.10:908][  0]LogNetVersion: NetCuteGhost 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3007799762)
+[2018.12.13-12.56.11:837][  0]LogMoviePlayer: Initializing movie player
+[2018.12.13-12.56.12:240][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.13-12.56.12:256][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.13-12.56.12:415][  0]SourceControl: Source control is disabled
+[2018.12.13-12.56.12:415][  0]SourceControl: Source control is disabled
+[2018.12.13-12.56.12:418][  0]SourceControl: Source control is disabled
+[2018.12.13-12.56.12:627][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.13-12.56.12:982][  0]LogOcInput: OculusInput pre-init called
+[2018.12.13-12.56.13:005][  0]LogUObjectArray: 42188 objects as part of root set at end of initial load.
+[2018.12.13-12.56.13:005][  0]LogUObjectAllocator: 7441528 out of 0 bytes used by permanent object pool.
+[2018.12.13-12.56.13:005][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.13-12.56.13:111][  0]LogEngine: Initializing Engine...
+[2018.12.13-12.56.13:113][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.13-12.56.13:126][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.13-12.56.13:126][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.13-12.56.13:127][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.13-12.56.13:127][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.13-12.56.13:362][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.13-12.56.13:493][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.13-12.56.13:654][  0]LogInit: FAudioDevice initialized.
+[2018.12.13-12.56.13:666][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.13-12.56.13:674][  0]LogInit: Texture streaming: Enabled
+[2018.12.13-12.56.13:894][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/NetCuteGhost.NetCuteGhostGameInstance'
+[2018.12.13-12.56.13:894][  0]LogEngine: Error: Unable to load GameInstance Class '/Script/NetCuteGhost.NetCuteGhostGameInstance'. Falling back to generic UGameInstance.
+[2018.12.13-12.56.13:906][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-12.56.13:910][  0]LogInit: Display: Game Engine Initialized.
+[2018.12.13-12.56.13:910][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.13-12.56.13:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.13-12.56.13:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.13-12.56.13:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.13-12.56.13:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.13-12.56.13:951][  0]LogInit: Display: Starting Game.
+[2018.12.13-12.56.13:951][  0]LogNet: Browse: /Game/Map/Map_GhostPlayGround?Name=Player
+[2018.12.13-12.56.13:952][  0]LogLoad: LoadMap: /Game/Map/Map_GhostPlayGround?Name=Player
+[2018.12.13-12.56.14:318][  0]LogAIModule: Creating AISystem for world Map_GhostPlayground
+[2018.12.13-12.56.14:323][  0]LogLoad: Game class is 'BP_CuteGhost_Gamemode_C'
+[2018.12.13-12.56.14:327][  0]LogWorld: Bringing World /Game/Map/Map_GhostPlayGround.Map_GhostPlayground up for play (max tick rate 0) at 2018.12.13-21.56.14
+[2018.12.13-12.56.14:329][  0]LogWorld: Bringing up level for play took: 0.005033
+[2018.12.13-12.56.14:348][  0]NetCuteGhost: AGhostTCPServer::InitNetwork(57) : Start Initiate Network System, 192.168.43.170, 12357
+[2018.12.13-12.56.14:348][  0]NetCuteGhost: AGhostTCPServer::InitListenerSocket(72)
+[2018.12.13-12.56.14:348][  0]NetCuteGhost: AGhostTCPServer::CreateListenerSocket(95)
+[2018.12.13-12.56.14:348][  0]NetCuteGhost: AGhostTCPServer::CreateListenerSocket(98) : ReceivedBufferSize is 64
+[2018.12.13-12.56.14:348][  0]NetCuteGhost: AGhostTCPServer::CreateListenerSocket(113) : 192.168.43.170:12357
+[2018.12.13-12.56.14:349][  0]NetCuteGhost: AGhostTCPServer::CreateListenerSocket(132) : ReceivedBufferSize is 64, and NewSize is 64
+[2018.12.13-12.56.14:349][  0]NetCuteGhost: AGhostTCPServer::InitNetwork(67) : Network System successfully init! 
+[2018.12.13-12.56.14:355][  0]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=938.200 Y=532.800 Z=92.000] for [BP_CuteGhost_C]
+[2018.12.13-12.56.14:355][  0]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_CuteGhost_C at Rotation: Pitch 0.000000 Yaw -169.999649 Roll 0.000000
+Translation: 883.199951 532.799988 92.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.12.13-12.56.14:357][  0]LogLoad: Took 0.404202 seconds to LoadMap(/Game/Map/Map_GhostPlayGround)
+[2018.12.13-12.56.14:480][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2018.12.13-12.56.14:480][  0]LogLoad: (Engine Initialization) Total time: 15.58 seconds
+[2018.12.13-12.56.14:480][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.13-12.56.14:507][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.13-12.56.20:011][334]NetCuteGhost: AGhostTCPServer::ActivateListenerSocket(153) : HasPendingConnection is true
+[2018.12.13-12.56.20:011][334]NetCuteGhost: Warning: AGhostTCPServer::ActivateListenerSocket(171) : Accept Success
+[2018.12.13-12.56.27:549][801]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:565][802]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:580][803]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:598][804]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:613][805]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:630][806]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:646][807]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:661][808]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:678][809]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:693][810]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:709][811]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:726][812]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:742][813]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:758][814]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:774][815]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:790][816]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:806][817]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:823][818]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:838][819]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:855][820]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:871][821]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:887][822]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:903][823]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:919][824]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:935][825]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:952][826]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:969][827]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:984][828]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.27:999][829]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.28:016][830]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.28:032][831]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.28:049][832]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.28:065][833]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.28:080][834]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.28:097][835]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.28:113][836]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.28:129][837]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.28:146][838]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:161][839]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:177][840]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:194][841]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:209][842]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:226][843]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:241][844]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:258][845]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:275][846]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:290][847]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:307][848]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:322][849]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:338][850]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:355][851]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:371][852]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:387][853]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:404][854]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:419][855]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:436][856]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:451][857]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:468][858]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:484][859]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:500][860]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:516][861]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:532][862]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:548][863]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:564][864]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:581][865]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:597][866]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:613][867]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:629][868]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:646][869]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:661][870]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:678][871]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:693][872]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:710][873]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:726][874]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:742][875]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:758][876]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:774][877]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:791][878]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:807][879]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:822][880]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:839][881]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:855][882]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:871][883]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:887][884]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:903][885]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:920][886]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:935][887]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.28:952][888]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.28:969][889]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.28:986][890]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:000][891]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:017][892]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:032][893]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:049][894]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:065][895]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:081][896]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:098][897]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:113][898]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:130][899]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:146][900]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:162][901]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:178][902]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:193][903]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:210][904]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:227][905]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:242][906]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:258][907]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:274][908]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:290][909]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:307][910]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:322][911]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:339][912]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:355][913]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:371][914]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:388][915]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:403][916]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:420][917]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:435][918]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:452][919]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:468][920]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:484][921]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:500][922]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:516][923]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:532][924]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:549][925]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:565][926]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:581][927]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:597][928]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:614][929]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:630][930]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:646][931]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:662][932]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:677][933]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:694][934]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:710][935]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:726][936]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:742][937]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:758][938]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:774][939]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:791][940]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:807][941]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:823][942]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:839][943]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.29:855][944]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:871][945]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:887][946]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:903][947]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:920][948]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:936][949]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:953][950]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:968][951]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.29:984][952]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:001][953]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:016][954]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:033][955]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:049][956]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:065][957]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:081][958]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:097][959]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:115][960]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:129][961]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:146][962]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:163][963]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:178][964]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:194][965]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:210][966]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:226][967]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:243][968]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:258][969]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:275][970]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:290][971]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:307][972]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:323][973]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:339][974]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:355][975]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:371][976]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:387][977]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:404][978]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:420][979]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:436][980]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.30:451][981]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:468][982]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:485][983]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:500][984]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:517][985]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:532][986]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:549][987]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:565][988]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:581][989]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:598][990]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:615][991]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:630][992]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:647][993]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:662][994]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:679][995]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:694][996]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:710][997]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:727][998]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:742][999]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:759][  0]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:774][  1]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:791][  2]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:807][  3]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:823][  4]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:839][  5]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:855][  6]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:871][  7]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:888][  8]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:903][  9]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:920][ 10]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:935][ 11]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:952][ 12]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:969][ 13]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.30:984][ 14]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:001][ 15]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:017][ 16]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:033][ 17]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:049][ 18]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:065][ 19]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:081][ 20]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:098][ 21]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:113][ 22]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:131][ 23]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:146][ 24]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:162][ 25]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:179][ 26]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:194][ 27]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:211][ 28]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:226][ 29]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:243][ 30]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:259][ 31]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:275][ 32]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:291][ 33]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:307][ 34]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:323][ 35]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:340][ 36]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:355][ 37]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:372][ 38]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:387][ 39]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:404][ 40]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:420][ 41]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:436][ 42]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:452][ 43]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:468][ 44]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:485][ 45]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:501][ 46]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:517][ 47]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:533][ 48]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:549][ 49]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:565][ 50]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:582][ 51]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:597][ 52]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:614][ 53]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:630][ 54]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:646][ 55]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:663][ 56]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:678][ 57]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:695][ 58]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:710][ 59]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:727][ 60]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:743][ 61]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:759][ 62]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:774][ 63]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:791][ 64]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:808][ 65]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:823][ 66]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:840][ 67]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:855][ 68]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:872][ 69]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:888][ 70]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:904][ 71]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:920][ 72]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:936][ 73]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:952][ 74]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:969][ 75]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.31:984][ 76]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:001][ 77]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:017][ 78]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:033][ 79]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:049][ 80]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:066][ 81]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:081][ 82]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:098][ 83]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:114][ 84]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:131][ 85]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:147][ 86]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:162][ 87]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:178][ 88]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:195][ 89]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:211][ 90]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:227][ 91]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:242][ 92]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:259][ 93]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:276][ 94]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:291][ 95]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:307][ 96]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:323][ 97]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:339][ 98]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:356][ 99]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:371][100]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:388][101]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:405][102]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:420][103]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.32:437][104]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.35:050][266]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:067][267]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:082][268]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:099][269]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:114][270]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:131][271]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:147][272]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:163][273]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:179][274]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:195][275]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:212][276]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:227][277]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:244][278]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:260][279]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:277][280]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:292][281]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:308][282]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:325][283]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:340][284]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:357][285]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:373][286]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:389][287]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:405][288]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:421][289]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.35:437][290]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.38:844][501]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.38:860][502]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.38:876][503]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.38:891][504]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.38:908][505]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.38:924][506]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.38:940][507]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.38:957][508]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.38:972][509]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.38:989][510]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:004][511]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:021][512]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:038][513]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:053][514]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:069][515]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:086][516]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:101][517]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:118][518]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:134][519]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:150][520]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:166][521]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:182][522]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:198][523]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:215][524]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:230][525]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:247][526]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:263][527]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:279][528]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:296][529]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:311][530]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:329][531]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:344][532]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:360][533]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:377][534]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:392][535]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:409][536]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:424][537]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:441][538]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:457][539]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:472][540]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:489][541]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:505][542]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:521][543]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:538][544]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:553][545]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:570][546]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:586][547]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:602][548]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:618][549]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.39:634][550]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] XAxis
+[2018.12.13-12.56.43:055][762]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:073][763]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:089][764]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:104][765]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:121][766]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:137][767]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:153][768]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:170][769]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:185][770]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:202][771]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:217][772]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:234][773]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:250][774]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:266][775]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:282][776]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:299][777]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:315][778]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:331][779]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:348][780]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:364][781]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:380][782]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:395][783]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:412][784]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:428][785]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:445][786]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:460][787]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:477][788]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:493][789]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:508][790]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:525][791]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:541][792]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:557][793]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:573][794]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:589][795]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:605][796]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:622][797]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:637][798]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:654][799]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:669][800]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:686][801]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:702][802]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:718][803]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:735][804]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:750][805]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:767][806]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:783][807]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:799][808]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:816][809]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:831][810]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:849][811]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:864][812]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:880][813]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:896][814]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:912][815]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:929][816]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:944][817]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:961][818]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:976][819]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.43:993][820]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.44:009][821]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.44:026][822]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.44:041][823]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.44:058][824]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.44:074][825]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.44:090][826]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.44:106][827]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.44:122][828]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.44:138][829]LogBlueprintUserMessages: [BP_CuteGhostController_C_0] YAxis
+[2018.12.13-12.56.50:835][244]LogBlueprintUserMessages: [Map_GhostPlayGround_C_10] [ 0 Player ] : ~HEllo
+[2018.12.13-12.57.07:093][955]LogSlate: Window 'NetCuteGhost (64-bit Development PCD3D_SM5) ' being destroyed
+[2018.12.13-12.57.07:102][955]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.12.13-12.57.07:120][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-12.57.07:120][955]LogEngine: All Windows Closed
+[2018.12.13-12.57.07:120][955]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.12.13-12.57.07:151][956]NetCuteGhost: AGhostTCPServer::EndPlay(38)
+[2018.12.13-12.57.08:151][956]LogExit: Preparing to exit.
+[2018.12.13-12.57.08:151][956]LogMoviePlayer: Shutting down movie player
+[2018.12.13-12.57.08:344][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-12.57.08:364][956]LogExit: Game engine shut down
+[2018.12.13-12.57.08:645][956]LogExit: Object subsystem successfully closed.
+[2018.12.13-12.57.08:674][956]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.12.13-12.57.08:679][956]LogD3D11RHI: Shutdown
+[2018.12.13-12.57.08:679][956]LogD3D11RHI: CleanupD3DDevice
+[2018.12.13-12.57.08:681][956]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.12.13-12.57.08:725][956]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (378)
+[2018.12.13-12.57.08:725][956]LogModuleManager: Shutting down and abandoning module SequenceRecorder (376)
+[2018.12.13-12.57.08:725][956]LogModuleManager: Shutting down and abandoning module AutomationController (374)
+[2018.12.13-12.57.08:725][956]LogModuleManager: Shutting down and abandoning module AutomationWorker (372)
+[2018.12.13-12.57.08:725][956]LogModuleManager: Shutting down and abandoning module Voice (370)
+[2018.12.13-12.57.08:725][956]LogModuleManager: Shutting down and abandoning module AIModule (368)
+[2018.12.13-12.57.08:726][956]LogModuleManager: Shutting down and abandoning module GameplayDebugger (367)
+[2018.12.13-12.57.08:726][956]LogModuleManager: Shutting down and abandoning module AITestSuite (365)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module NavigationSystem (363)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (360)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (358)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (356)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (354)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (352)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (350)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module CharacterAI (348)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module SessionServices (346)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (344)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (342)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module MovieScene (340)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (338)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module PortalServices (336)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module PortalRpc (334)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module MessagingRpc (332)
+[2018.12.13-12.57.08:727][956]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2018.12.13-12.57.08:961][956]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2018.12.13-12.57.08:962][956]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2018.12.13-12.57.08:962][956]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (324)
+[2018.12.13-12.57.08:962][956]LogModuleManager: Shutting down and abandoning module OculusInput (322)
+[2018.12.13-12.57.08:962][956]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (320)
+[2018.12.13-12.57.08:962][956]LogModuleManager: Shutting down and abandoning module EditableMesh (318)
+[2018.12.13-12.57.08:962][956]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (316)
+[2018.12.13-12.57.08:962][956]LogModuleManager: Shutting down and abandoning module CableComponent (314)
+[2018.12.13-12.57.08:962][956]LogModuleManager: Shutting down and abandoning module AudioCapture (312)
+[2018.12.13-12.57.08:962][956]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (310)
+[2018.12.13-12.57.08:962][956]LogModuleManager: Shutting down and abandoning module AndroidPermission (308)
+[2018.12.13-12.57.08:962][956]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (306)
+[2018.12.13-12.57.08:963][956]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (304)
+[2018.12.13-12.57.08:963][956]LogModuleManager: Shutting down and abandoning module MediaCompositing (302)
+[2018.12.13-12.57.08:963][956]LogModuleManager: Shutting down and abandoning module LinearTimecode (300)
+[2018.12.13-12.57.08:963][956]LogModuleManager: Shutting down and abandoning module ImgMedia (298)
+[2018.12.13-12.57.08:967][956]LogModuleManager: Shutting down and abandoning module HTML5Networking (296)
+[2018.12.13-12.57.08:967][956]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (294)
+[2018.12.13-12.57.08:967][956]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (293)
+[2018.12.13-12.57.08:967][956]LogModuleManager: Shutting down and abandoning module GeometryCache (290)
+[2018.12.13-12.57.08:968][956]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (289)
+[2018.12.13-12.57.08:968][956]LogModuleManager: Shutting down and abandoning module BackChannel (286)
+[2018.12.13-12.57.08:968][956]LogModuleManager: Shutting down and abandoning module AppleVision (284)
+[2018.12.13-12.57.08:968][956]LogModuleManager: Shutting down and abandoning module AppleImageUtils (282)
+[2018.12.13-12.57.08:968][956]LogModuleManager: Shutting down and abandoning module DatasmithContent (280)
+[2018.12.13-12.57.08:969][956]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (278)
+[2018.12.13-12.57.08:969][956]LogModuleManager: Shutting down and abandoning module CryptoKeys (276)
+[2018.12.13-12.57.08:969][956]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (274)
+[2018.12.13-12.57.08:969][956]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.12.13-12.57.08:970][956]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (272)
+[2018.12.13-12.57.08:970][956]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (268)
+[2018.12.13-12.57.08:970][956]LogModuleManager: Shutting down and abandoning module UObjectPlugin (266)
+[2018.12.13-12.57.08:970][956]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (264)
+[2018.12.13-12.57.08:971][956]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (262)
+[2018.12.13-12.57.08:973][956]LogModuleManager: Shutting down and abandoning module SourceControl (261)
+[2018.12.13-12.57.08:973][956]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (258)
+[2018.12.13-12.57.08:974][956]LogModuleManager: Shutting down and abandoning module NetCuteGhost (256)
+[2018.12.13-12.57.08:974][956]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (254)
+[2018.12.13-12.57.08:974][956]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (252)
+[2018.12.13-12.57.08:974][956]LogModuleManager: Shutting down and abandoning module PhysXVehicles (250)
+[2018.12.13-12.57.08:974][956]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (248)
+[2018.12.13-12.57.08:974][956]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (246)
+[2018.12.13-12.57.08:974][956]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (244)
+[2018.12.13-12.57.08:975][956]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
+[2018.12.13-12.57.08:975][956]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
+[2018.12.13-12.57.09:076][956]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
+[2018.12.13-12.57.09:273][956]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (236)
+[2018.12.13-12.57.09:273][956]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2018.12.13-12.57.09:274][956]LogModuleManager: Shutting down and abandoning module FacialAnimation (232)
+[2018.12.13-12.57.09:274][956]LogModuleManager: Shutting down and abandoning module DataValidation (230)
+[2018.12.13-12.57.09:274][956]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2018.12.13-12.57.09:275][956]LogModuleManager: Shutting down and abandoning module TreeMap (227)
+[2018.12.13-12.57.09:275][956]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (224)
+[2018.12.13-12.57.09:275][956]LogModuleManager: Shutting down and abandoning module AISupportModule (222)
+[2018.12.13-12.57.09:275][956]LogModuleManager: Shutting down and abandoning module Paper2D (220)
+[2018.12.13-12.57.09:275][956]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (218)
+[2018.12.13-12.57.09:275][956]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.12.13-12.57.09:275][956]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.12.13-12.57.09:278][956]LogModuleManager: Shutting down and abandoning module Media (213)
+[2018.12.13-12.57.09:285][956]LogModuleManager: Shutting down and abandoning module PacketHandler (210)
+[2018.12.13-12.57.09:285][956]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (208)
+[2018.12.13-12.57.09:285][956]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (206)
+[2018.12.13-12.57.09:285][956]LogModuleManager: Shutting down and abandoning module MediaAssets (204)
+[2018.12.13-12.57.09:285][956]LogModuleManager: Shutting down and abandoning module Overlay (202)
+[2018.12.13-12.57.09:285][956]LogModuleManager: Shutting down and abandoning module OverlayEditor (201)
+[2018.12.13-12.57.09:285][956]LogModuleManager: Shutting down and abandoning module VREditor (198)
+[2018.12.13-12.57.09:286][956]LogModuleManager: Shutting down and abandoning module StringTableEditor (196)
+[2018.12.13-12.57.09:286][956]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2018.12.13-12.57.09:286][956]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2018.12.13-12.57.09:287][956]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2018.12.13-12.57.09:288][956]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2018.12.13-12.57.09:289][956]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (187)
+[2018.12.13-12.57.09:289][956]LogModuleManager: Shutting down and abandoning module UMG (184)
+[2018.12.13-12.57.09:290][956]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
+[2018.12.13-12.57.09:291][956]LogModuleManager: Shutting down and abandoning module Sequencer (182)
+[2018.12.13-12.57.09:293][956]LogModuleManager: Shutting down and abandoning module MessageLog (179)
+[2018.12.13-12.57.09:293][956]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2018.12.13-12.57.09:294][956]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2018.12.13-12.57.09:294][956]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2018.12.13-12.57.09:296][956]LogModuleManager: Shutting down and abandoning module MRMesh (168)
+[2018.12.13-12.57.09:296][956]LogModuleManager: Shutting down and abandoning module Messaging (166)
+[2018.12.13-12.57.09:296][956]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2018.12.13-12.57.09:296][956]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2018.12.13-12.57.09:296][956]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2018.12.13-12.57.09:296][956]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2018.12.13-12.57.09:296][956]LogModuleManager: Shutting down and abandoning module Core (156)
+[2018.12.13-12.57.09:296][956]LogModuleManager: Shutting down and abandoning module LevelSequence (154)
+[2018.12.13-12.57.09:296][956]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
+[2018.12.13-12.57.09:296][956]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2018.12.13-12.57.09:298][956]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (149)
+[2018.12.13-12.57.09:299][956]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (148)
+[2018.12.13-12.57.09:299][956]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
+[2018.12.13-12.57.09:299][956]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (145)
+[2018.12.13-12.57.09:300][956]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (143)
+[2018.12.13-12.57.09:300][956]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (141)
+[2018.12.13-12.57.09:300][956]LogModuleManager: Shutting down and abandoning module MaterialBaking (137)
+[2018.12.13-12.57.09:300][956]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2018.12.13-12.57.09:759][956]LogDerivedDataCache: Shutdown
+[2018.12.13-12.57.09:759][956]LogModuleManager: Shutting down and abandoning module XGEController (130)
+[2018.12.13-12.57.09:759][956]LogModuleManager: Shutting down and abandoning module TargetPlatform (128)
+[2018.12.13-12.57.09:759][956]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (127)
+[2018.12.13-12.57.09:759][956]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (125)
+[2018.12.13-12.57.09:760][956]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (123)
+[2018.12.13-12.57.09:761][956]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (121)
+[2018.12.13-12.57.09:761][956]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (119)
+[2018.12.13-12.57.09:761][956]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (117)
+[2018.12.13-12.57.09:761][956]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (115)
+[2018.12.13-12.57.09:761][956]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (113)
+[2018.12.13-12.57.09:761][956]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (111)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (109)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module ImageWrapper (108)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (105)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (103)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (101)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (99)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (97)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (95)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (93)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (91)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.12.13-12.57.09:762][956]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.12.13-12.57.09:764][956]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.12.13-12.57.09:766][956]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.12.13-12.57.09:796][956]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.12.13-12.57.09:818][956]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.12.13-12.57.09:822][956]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.12.13-12.57.09:823][956]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.12.13-12.57.09:823][956]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.12.13-12.57.09:823][956]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.12.13-12.57.09:823][956]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.12.13-12.57.09:823][956]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.12.13-12.57.09:823][956]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.12.13-12.57.09:823][956]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.12.13-12.57.09:823][956]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.12.13-12.57.09:824][956]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.12.13-12.57.09:824][956]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.12.13-12.57.09:824][956]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.12.13-12.57.09:826][956]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.12.13-12.57.09:826][956]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.12.13-12.57.09:827][956]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.12.13-12.57.09:829][956]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.12.13-12.57.09:829][956]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.12.13-12.57.09:829][956]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.12.13-12.57.09:829][956]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.12.13-12.57.09:830][956]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.12.13-12.57.09:830][956]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.12.13-12.57.09:830][956]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.12.13-12.57.09:830][956]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.12.13-12.57.09:830][956]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.12.13-12.57.09:830][956]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.12.13-12.57.09:830][956]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.12.13-12.57.09:830][956]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.12.13-12.57.09:830][956]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.12.13-12.57.09:830][956]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.12.13-12.57.09:837][956]LogExit: Exiting.
+[2018.12.13-12.57.09:843][956]Log file closed, 12/13/18 21:57:09
