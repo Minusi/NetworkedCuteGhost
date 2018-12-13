@@ -8,10 +8,10 @@ int main(int argc, char **argv)
 {
 	std::string inputip;
 	int inputport;
-	std::cout << "CLIENT::Input IP = ";
+	std::cout << "CLIENT::Input Proxy IP = ";
 	std::cin >> inputip;
 	
-	std::cout << "CLIENT::Input PORT = ";
+	std::cout << "CLIENT::Input Proxy PORT = ";
 	std::cin >> inputport;
 		
 	std::unique_ptr<NetCuteGhostLinuxClient> Client;
