@@ -1,0 +1,7 @@
+[0 Player ] ~ HEllo
+[0 Player ] ~ MY name is ko
+[0 Player ] ~ plz make
+[1 Player ] ~ hello
+[2 Player ] ~ hello
+[0 Player ] ~ hello my name is LSP
+[0 Player ] ~ hello my name is LSP

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="NetCuteGhostLinux" Database="" Version="10.0.0">
+  <Project Name="LinuxServer" Path="LinuxServer/LinuxServer.project" Active="No"/>
+  <Project Name="LinuxClient" Path="LinuxClient/LinuxClient.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="LinuxServer" ConfigName="Debug"/>
+      <Project Name="LinuxClient" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="LinuxServer" ConfigName="Release"/>
+      <Project Name="LinuxClient" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
