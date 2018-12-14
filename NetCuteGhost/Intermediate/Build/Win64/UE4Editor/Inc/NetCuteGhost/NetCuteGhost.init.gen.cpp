@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeNetCuteGhost_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/NetCuteGhost",
 				PKG_CompiledIn | 0x00000000,
-				0xEE298158,
-				0xBEECAC7C,
+				0x2B4E755E,
+				0x2CE97E08,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

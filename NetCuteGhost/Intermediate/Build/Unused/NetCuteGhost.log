@@ -1,12 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading NetCuteGhostEditor (ini files are newer than UBTMakefile)
   Compiling game modules for hot reload
-  Using Visual Studio 2017 14.13.26128 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 3 actions with 8 processes...
     [1/3] GhostTCPServer.cpp
-    [2/3] UE4Editor-NetCuteGhost-765.lib
-       C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-765.lib ????귯?? ?? C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-765.exp ??u?? ??????? ??????.
-    [3/3] UE4Editor-NetCuteGhost-765.dll
-       C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-765.suppressed.lib ????귯?? ?? C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-765.suppressed.exp ??u?? ??????? ??????.
+    [2/3] UE4Editor-NetCuteGhost-8873.lib
+       C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-8873.lib ????귯?? ?? C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-8873.exp ??u?? ??????? ??????.
+    [3/3] UE4Editor-NetCuteGhost-8873.dll
+       C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-8873.suppressed.lib ????귯?? ?? C:\Users\Utsuho\Desktop\General\ProjectSpace\CuteGhost\NetCuteGhost\Intermediate\Build\Win64\UE4Editor\Development\NetCuteGhost\UE4Editor-NetCuteGhost-8873.suppressed.exp ??u?? ??????? ??????.
   Deploying NetCuteGhostEditor Win64 Development...
-  Total build time: 143.62 seconds (Parallel executor: 25.40 seconds)
+  Total build time: 36.32 seconds (Parallel executor: 14.64 seconds)

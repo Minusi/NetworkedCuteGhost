@@ -1,81 +1,79 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\NetCuteGhost.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{85B64E97-D52C-4A34-806C-A7EF7ADC1671}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\NetCuteGhost.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\NetCuteGhostEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{3EC0DE06-32CA-4485-80B0-F32A6E766467}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\NetCuteGhost">
-      <UniqueIdentifier>{CAF048D1-7EFA-4409-932A-148027E992AB}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\NetCuteGhost\NetCuteGhost.Build.cs">
-      <Filter>Source\NetCuteGhost</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\NetCuteGhost\NetCuteGhost.cpp">
-      <Filter>Source\NetCuteGhost</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\NetCuteGhost\NetCuteGhost.h">
-      <Filter>Source\NetCuteGhost</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\NetCuteGhost\NetCuteGhostGameModeBase.cpp">
-      <Filter>Source\NetCuteGhost</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\NetCuteGhost\NetCuteGhostGameModeBase.h">
-      <Filter>Source\NetCuteGhost</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Source\NetCuteGhost\Public">
-      <UniqueIdentifier>{6ee02ce0-1689-49eb-b2b8-02f88daaf741}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\NetCuteGhost\Private">
-      <UniqueIdentifier>{d4a8124e-df55-4025-8395-122f15dad80e}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\NetCuteGhost\Public\GhostTCPServer.h">
-      <Filter>Source\NetCuteGhost\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\NetCuteGhost\Public\CuteGhostPawnBase.h">
-      <Filter>Source\NetCuteGhost\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\NetCuteGhost\Public\GhostGameInstance.h">
-      <Filter>Source\NetCuteGhost\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\NetCuteGhost\Public\PacketContainer.h">
-      <Filter>Source\NetCuteGhost\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\NetCuteGhost\Private\GhostTCPServer.cpp">
-      <Filter>Source\NetCuteGhost\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\NetCuteGhost\Private\CuteGhostPawnBase.cpp">
-      <Filter>Source\NetCuteGhost\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\NetCuteGhost\Private\GhostGameInstance.cpp">
-      <Filter>Source\NetCuteGhost\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\NetCuteGhost\Private\PacketContainer.cpp">
-      <Filter>Source\NetCuteGhost\Private</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\NetCuteGhost.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{E5B0935A-09B9-4B8B-8C98-AA5E1592D5C8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\NetCuteGhost.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\NetCuteGhostEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{136BA1D0-9A50-45A2-945C-49C696D4E3BA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\NetCuteGhost">
+			<UniqueIdentifier>{5575E8E3-05FA-434C-A29A-B944ACF95DCE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\NetCuteGhost\NetCuteGhost.Build.cs">
+			<Filter>Source\NetCuteGhost</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\NetCuteGhost\NetCuteGhost.cpp">
+			<Filter>Source\NetCuteGhost</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\NetCuteGhost\NetCuteGhost.h">
+			<Filter>Source\NetCuteGhost</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\NetCuteGhost\NetCuteGhostGameModeBase.cpp">
+			<Filter>Source\NetCuteGhost</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\NetCuteGhost\NetCuteGhostGameModeBase.h">
+			<Filter>Source\NetCuteGhost</Filter>
+		</ClInclude >
+		<Filter Include="Source\NetCuteGhost\Private">
+			<UniqueIdentifier>{31B06135-67DE-4864-9315-7BAC2AD3DA27}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\NetCuteGhost\Private\CuteGhostPawnBase.cpp">
+			<Filter>Source\NetCuteGhost\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\NetCuteGhost\Private\GhostGameInstance.cpp">
+			<Filter>Source\NetCuteGhost\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\NetCuteGhost\Private\GhostTCPServer.cpp">
+			<Filter>Source\NetCuteGhost\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\NetCuteGhost\Private\PacketContainer.cpp">
+			<Filter>Source\NetCuteGhost\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\NetCuteGhost\Public">
+			<UniqueIdentifier>{CEC79767-D295-4635-AF5E-6B90357E68C2}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\NetCuteGhost\Public\CuteGhostPawnBase.h">
+			<Filter>Source\NetCuteGhost\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\NetCuteGhost\Public\GhostGameInstance.h">
+			<Filter>Source\NetCuteGhost\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\NetCuteGhost\Public\GhostTCPServer.h">
+			<Filter>Source\NetCuteGhost\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\NetCuteGhost\Public\PacketContainer.h">
+			<Filter>Source\NetCuteGhost\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

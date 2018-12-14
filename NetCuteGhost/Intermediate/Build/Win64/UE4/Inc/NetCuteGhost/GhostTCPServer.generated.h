@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define NETCUTEGHOST_GhostTCPServer_generated_h
 
-#define NetCuteGhost_Source_NetCuteGhost_Public_GhostTCPServer_h_20_RPC_WRAPPERS
-#define NetCuteGhost_Source_NetCuteGhost_Public_GhostTCPServer_h_20_RPC_WRAPPERS_NO_PURE_DECLS
+#define NetCuteGhost_Source_NetCuteGhost_Public_GhostTCPServer_h_20_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execInitNetwork) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->InitNetwork(); \
+		P_NATIVE_END; \
+	}
+
+
+#define NetCuteGhost_Source_NetCuteGhost_Public_GhostTCPServer_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execInitNetwork) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->InitNetwork(); \
+		P_NATIVE_END; \
+	}
+
+
 #define NetCuteGhost_Source_NetCuteGhost_Public_GhostTCPServer_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGhostTCPServer(); \

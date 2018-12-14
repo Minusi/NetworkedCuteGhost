@@ -17,9 +17,39 @@ void EmptyLinkFunctionForGeneratedCodeGhostTCPServer() {}
 	NETCUTEGHOST_API UClass* Z_Construct_UClass_AGhostTCPServer();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_NetCuteGhost();
+	NETCUTEGHOST_API UFunction* Z_Construct_UFunction_AGhostTCPServer_InitNetwork();
 // End Cross Module References
 	void AGhostTCPServer::StaticRegisterNativesAGhostTCPServer()
 	{
+		UClass* Class = AGhostTCPServer::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "InitNetwork", &AGhostTCPServer::execInitNetwork },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AGhostTCPServer_InitNetwork_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGhostTCPServer_InitNetwork_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Network" },
+		{ "ModuleRelativePath", "Public/GhostTCPServer.h" },
+		{ "ToolTip", "\xeb\x84\xa4\xed\x8a\xb8\xec\x9b\x8c\xed\x81\xac \xed\x86\xb5\xec\x8b\xa0 \xed\x94\x84\xeb\xa1\x9c\xec\x84\xb8\xec\x8a\xa4\xeb\xa5\xbc \xec\x8b\x9c\xec\x9e\x91\xed\x95\xa9\xeb\x8b\x88\xeb\x8b\xa4. \xec\x84\x9c\xeb\xb2\x84\xec\x9d\x98 \xed\x86\xb5\xec\x8b\xa0 \xed\x94\x84\xeb\xa1\x9c\xec\x84\xb8\xec\x8a\xa4\xeb\x8a\x94\n\xeb\x8b\xa4\xec\x9d\x8c\xea\xb3\xbc \xea\xb0\x99\xec\x9d\x80 \xec\x88\x9c\xec\x84\x9c\xeb\xa1\x9c \xed\x98\xb8\xec\xb6\x9c\xeb\x90\x98\xeb\xa9\xb0 \xec\x88\x98\xed\x96\x89\xed\x95\xa9\xeb\x8b\x88\xeb\x8b\xa4:\n1. InitNetwork\n2. InitListenerSocket\n3. CreateListenerSocket\n3-1. ActivateListenerSocket\n4. ActivateConnectionSocket" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGhostTCPServer_InitNetwork_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGhostTCPServer, "InitNetwork", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGhostTCPServer_InitNetwork_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGhostTCPServer_InitNetwork_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGhostTCPServer_InitNetwork()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGhostTCPServer_InitNetwork_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AGhostTCPServer_NoRegister()
 	{
@@ -28,6 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeGhostTCPServer() {}
 	struct Z_Construct_UClass_AGhostTCPServer_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -52,6 +83,9 @@ void EmptyLinkFunctionForGeneratedCodeGhostTCPServer() {}
 	UObject* (*const Z_Construct_UClass_AGhostTCPServer_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_NetCuteGhost,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AGhostTCPServer_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AGhostTCPServer_InitNetwork, "InitNetwork" }, // 144620410
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGhostTCPServer_Statics::Class_MetaDataParams[] = {
@@ -102,7 +136,7 @@ void EmptyLinkFunctionForGeneratedCodeGhostTCPServer() {}
 		&AGhostTCPServer::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		Z_Construct_UClass_AGhostTCPServer_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AGhostTCPServer_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -118,7 +152,7 @@ void EmptyLinkFunctionForGeneratedCodeGhostTCPServer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGhostTCPServer, 1872240481);
+	IMPLEMENT_CLASS(AGhostTCPServer, 753720409);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AGhostTCPServer(Z_Construct_UClass_AGhostTCPServer, &AGhostTCPServer::StaticClass, TEXT("/Script/NetCuteGhost"), TEXT("AGhostTCPServer"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGhostTCPServer);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

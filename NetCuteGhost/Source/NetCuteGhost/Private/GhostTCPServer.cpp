@@ -21,7 +21,6 @@ AGhostTCPServer::AGhostTCPServer()
 void AGhostTCPServer::BeginPlay()
 {
 	Super::BeginPlay();
-	InitNetwork();
 }
 
 // Called every frame

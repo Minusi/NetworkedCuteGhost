@@ -43,6 +43,7 @@ public:
 	// 3. CreateListenerSocket
 	// 3-1. ActivateListenerSocket
 	// 4. ActivateConnectionSocket
+	UFUNCTION(BlueprintCallable, Category = "Network")
 	void InitNetwork();
 
 	// ListenerSocket을 초기화하고 초기화된 리스너 소켓을 활성화합니다.
